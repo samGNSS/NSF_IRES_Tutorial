@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="taggedHeader__impl_8h" kind="file" language="C++">
+    <compoundname>taggedHeader_impl.h</compoundname>
+    <includes refid="taggedHeader_8h" local="no">lets_test_some_stuff/taggedHeader.h</includes>
+    <incdepgraph>
+      <node id="48">
+        <label>lets_test_some_stuff/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="46">
+        <label>taggedHeader_impl.h</label>
+        <link refid="taggedHeader_impl.h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>gnuradio/tagged_stream_block.h</label>
+      </node>
+      <node id="47">
+        <label>lets_test_some_stuff/taggedHeader.h</label>
+        <link refid="taggedHeader_8h"/>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader__impl" prot="public">gr::lets_test_some_stuff::taggedHeader_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lets__test__some__stuff">gr::lets_test_some_stuff</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedHeader_impl.h"/>
+  </compounddef>
+</doxygen>
