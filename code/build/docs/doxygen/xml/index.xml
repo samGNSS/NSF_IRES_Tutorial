@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode" kind="class"><name>gr::lets_test_some_stuff::taggedAccessCode</name>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode_1af44434186069fdc12689890bb680af69" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode_1a02fde77d290d301d79f77e1201daecdc" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode__impl" kind="class"><name>gr::lets_test_some_stuff::taggedAccessCode_impl</name>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode__impl_1a47a96d4b4fe2cfbafd3b4db96d74c3c7" kind="function"><name>calculate_output_stream_length</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode__impl_1a85682ccb45c2afbae05631c1877511e6" kind="function"><name>taggedAccessCode_impl</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode__impl_1a475f9ec5355e6c6f24bc2a7a6d977e39" kind="function"><name>~taggedAccessCode_impl</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode__impl_1a1a33519cb2181971764d8bdb03f6b004" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource" kind="class"><name>gr::lets_test_some_stuff::taggedFileSource</name>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource_1ad3fdedddee90b7f97d9cff3051d8d9ae" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource_1a6c82fed47e0b48a575a04a74c6ea52d9" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource_1adca0f7cb154aa51196baff81beb48d67" kind="function"><name>seek</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource_1aa3974b8d404414a66546449a87508b18" kind="function"><name>open</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource_1a2b8a060a7033634d8401215f345e0156" kind="function"><name>close</name></member>
+  </compound>
+  <compound refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl" kind="class"><name>gr::lets_test_some_stuff::taggedFileSource_impl</name>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a3f2abb00a4171593cc3166e10c991998" kind="variable"><name>d_itemsize</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a13666b12c25b66f21a3b538b3e0becf4" kind="variable"><name>d_fp</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1aa75a1c9f04c5c9b3921cd47964fd84e4" kind="variable"><name>d_new_fp</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a29507120ff5b2d1e4991237ffc9e34a0" kind="variable"><name>d_repeat</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a182dd585201207e331bbfb04392797f4" kind="variable"><name>d_updated</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a43027535ddf268949ea495bfff27ee16" kind="variable"><name>fp_mutex</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a95babbe13e096c12abb717f617cd45e6" kind="variable"><name>d_blockLength</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a405d4d205dde11ec809574ec816fc799" kind="variable"><name>d_packet_len</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1ae78b403d753a630eff27f7203719b72d" kind="variable"><name>d_packet_len_pmt</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a246a67a8f6ba409ef74af967760a7e19" kind="variable"><name>d_len_tag_key</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a17be6d12a724616cf5c4eaf73cae5456" kind="variable"><name>d_next_tag_pos</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a1574e342cd131b1f5d8fb1e078d6bb26" kind="variable"><name>endFlag</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a6767d0ff22ce252f8a628d8e8c0532d2" kind="variable"><name>startFlag</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a09f198a75ccdc0111d2e87b8afbf04ca" kind="function"><name>do_update</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1aca00147c225a55be16a363e2c3096623" kind="function"><name>taggedFileSource_impl</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a5b1e1694e7fd8fe328ee0bf7def7fcdd" kind="function"><name>~taggedFileSource_impl</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a3cb67c68faebef366eb2ebdb2fe42522" kind="function"><name>seek</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1aa78baeeb52cf1629425613b706cd4edf" kind="function"><name>open</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a138569377e18207ae48f0f3005516f03" kind="function"><name>close</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a190383c13a39921901b7a441dabbdcaa" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader" kind="class"><name>gr::lets_test_some_stuff::taggedHeader</name>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader_1acede45d3b22711d8fd8e3147372b4595" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader_1a24603ae9a341ad948715eff82b549429" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader__impl" kind="class"><name>gr::lets_test_some_stuff::taggedHeader_impl</name>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader__impl_1a4db1f7011740b821d85e96d834020e73" kind="variable"><name>d_packetNumber</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader__impl_1a6a27f2409ce69e283c3a38e9cdd75785" kind="function"><name>calculate_output_stream_length</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader__impl_1a47f922c30c56134fa6f68061c5cf5214" kind="function"><name>taggedHeader_impl</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader__impl_1a1c442f261e7fc15c1d72b0572c3ecb59" kind="function"><name>~taggedHeader_impl</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader__impl_1a271cea04b31559b1fac802c552e073d4" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1lets__test__some__stuff_1_1taggedPacketGate" kind="class"><name>gr::lets_test_some_stuff::taggedPacketGate</name>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedPacketGate_1a83c7563904fc0d2086af5a20d4d912d5" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedPacketGate_1a91c3ba79d6285534d282a81bd261978b" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1lets__test__some__stuff_1_1taggedPacketGate__impl" kind="class"><name>gr::lets_test_some_stuff::taggedPacketGate_impl</name>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedPacketGate__impl_1a3efd0a36050505d62ceaf316cb85b1c1" kind="variable"><name>d_tagName</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedPacketGate__impl_1aa53b714ff49da3cd2bc7895ed7997619" kind="function"><name>taggedPacketGate_impl</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedPacketGate__impl_1a624382b938f15c788382d5026f0f41df" kind="function"><name>~taggedPacketGate_impl</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedPacketGate__impl_1a55183a7188bf437e2f51f9262f35764c" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedPacketGate__impl_1a4d51c0f376269ee699dbeaf9a8a74c4a" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1lets__test__some__stuff" kind="namespace"><name>gr::lets_test_some_stuff</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1acf50c939eb9b0a25d56486080e0d4769" kind="define"><name>LETS_TEST_SOME_STUFF_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="taggedAccessCode_8h" kind="file"><name>taggedAccessCode.h</name>
+  </compound>
+  <compound refid="taggedAccessCode__impl_8h" kind="file"><name>taggedAccessCode_impl.h</name>
+  </compound>
+  <compound refid="taggedFileSource_8h" kind="file"><name>taggedFileSource.h</name>
+  </compound>
+  <compound refid="taggedFileSource__impl_8h" kind="file"><name>taggedFileSource_impl.h</name>
+  </compound>
+  <compound refid="taggedHeader_8h" kind="file"><name>taggedHeader.h</name>
+  </compound>
+  <compound refid="taggedHeader__impl_8h" kind="file"><name>taggedHeader_impl.h</name>
+  </compound>
+  <compound refid="taggedPacketGate_8h" kind="file"><name>taggedPacketGate.h</name>
+  </compound>
+  <compound refid="taggedPacketGate__impl_8h" kind="file"><name>taggedPacketGate_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_561465418f9005955c392397dfcf01da" kind="dir"><name>lets_test_some_stuff</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

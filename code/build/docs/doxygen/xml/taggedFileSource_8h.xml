@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="taggedFileSource_8h" kind="file" language="C++">
+    <compoundname>taggedFileSource.h</compoundname>
+    <includes refid="api_8h" local="no">lets_test_some_stuff/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="taggedFileSource__impl_8h" local="no">taggedFileSource_impl.h</includedby>
+    <incdepgraph>
+      <node id="30">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="28">
+        <label>lets_test_some_stuff/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>taggedFileSource.h</label>
+        <link refid="taggedFileSource.h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="32">
+        <label>taggedFileSource_impl.h</label>
+        <link refid="taggedFileSource__impl_8h"/>
+      </node>
+      <node id="31">
+        <label>taggedFileSource.h</label>
+        <link refid="taggedFileSource.h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource" prot="public">gr::lets_test_some_stuff::taggedFileSource</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lets__test__some__stuff">gr::lets_test_some_stuff</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedFileSource.h"/>
+  </compounddef>
+</doxygen>

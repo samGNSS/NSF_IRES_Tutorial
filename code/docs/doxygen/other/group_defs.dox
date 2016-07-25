@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio LETS_TEST_SOME_STUFF C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the LETS_TEST_SOME_STUFF GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+
