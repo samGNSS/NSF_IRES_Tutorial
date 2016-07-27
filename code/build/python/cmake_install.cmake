@@ -1,4 +1,4 @@
-# Install script for directory: /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/python
+# Install script for directory: /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,13 +33,13 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/lets_test_some_stuff" TYPE FILE FILES "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/python/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/lets_test_some_stuff" TYPE FILE FILES "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/python/__init__.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/lets_test_some_stuff" TYPE FILE FILES
-    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/python/__init__.pyc"
-    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/python/__init__.pyo"
+    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/python/__init__.pyc"
+    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/python/__init__.pyo"
     )
 endif()
 

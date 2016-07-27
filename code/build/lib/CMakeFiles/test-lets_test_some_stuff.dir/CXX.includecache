@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/qa_lets_test_some_stuff.cc
+/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/qa_lets_test_some_stuff.cc
 qa_lets_test_some_stuff.h
-/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/qa_lets_test_some_stuff.h
+/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/qa_lets_test_some_stuff.h
 
-/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/qa_lets_test_some_stuff.h
+/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/qa_lets_test_some_stuff.h
 gnuradio/attributes.h
 -
 cppunit/TestSuite.h
 -
 
-/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/test_lets_test_some_stuff.cc
+/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/test_lets_test_some_stuff.cc
 config.h
-/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/config.h
+/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/config.h
 cppunit/TextTestRunner.h
 -
 cppunit/XmlOutputter.h
@@ -26,7 +26,7 @@ cppunit/XmlOutputter.h
 gnuradio/unittests.h
 -
 qa_lets_test_some_stuff.h
-/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/qa_lets_test_some_stuff.h
+/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/qa_lets_test_some_stuff.h
 iostream
 -
 fstream

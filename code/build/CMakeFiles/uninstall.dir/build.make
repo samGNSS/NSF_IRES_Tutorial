@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff
+CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build
+CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/cmake_uninstall.cmake
+	/usr/bin/cmake -P /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/cmake_uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

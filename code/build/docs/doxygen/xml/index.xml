@@ -29,8 +29,9 @@
     <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1ae78b403d753a630eff27f7203719b72d" kind="variable"><name>d_packet_len_pmt</name></member>
     <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a246a67a8f6ba409ef74af967760a7e19" kind="variable"><name>d_len_tag_key</name></member>
     <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a17be6d12a724616cf5c4eaf73cae5456" kind="variable"><name>d_next_tag_pos</name></member>
-    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a1574e342cd131b1f5d8fb1e078d6bb26" kind="variable"><name>endFlag</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a68eb73f6f347e0fdd341dfcc4dbe97eb" kind="variable"><name>endFlag</name></member>
     <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a6767d0ff22ce252f8a628d8e8c0532d2" kind="variable"><name>startFlag</name></member>
+    <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a277d56716573aa7768daa9c459ddee60" kind="variable"><name>pad</name></member>
     <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a09f198a75ccdc0111d2e87b8afbf04ca" kind="function"><name>do_update</name></member>
     <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1aca00147c225a55be16a363e2c3096623" kind="function"><name>taggedFileSource_impl</name></member>
     <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl_1a5b1e1694e7fd8fe328ee0bf7def7fcdd" kind="function"><name>~taggedFileSource_impl</name></member>

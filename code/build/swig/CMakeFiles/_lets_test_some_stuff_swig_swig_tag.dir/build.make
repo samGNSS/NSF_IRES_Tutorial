@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff
+CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build
+CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build
 
 # Include any dependencies generated for this target.
 include swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/depend.make
@@ -59,16 +59,16 @@ include swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/flags.make
 
 swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.o: swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/flags.make
 swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.o: swig/_lets_test_some_stuff_swig_swig_tag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.o"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.o -c /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/_lets_test_some_stuff_swig_swig_tag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.o"
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.o -c /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/_lets_test_some_stuff_swig_swig_tag.cpp
 
 swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.i"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/_lets_test_some_stuff_swig_swig_tag.cpp > CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.i
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/_lets_test_some_stuff_swig_swig_tag.cpp > CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.i
 
 swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.s"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/_lets_test_some_stuff_swig_swig_tag.cpp -o CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.s
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/_lets_test_some_stuff_swig_swig_tag.cpp -o CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.s
 
 swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.o.requires:
 
@@ -91,8 +91,8 @@ _lets_test_some_stuff_swig_swig_tag_EXTERNAL_OBJECTS =
 swig/_lets_test_some_stuff_swig_swig_tag: swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.o
 swig/_lets_test_some_stuff_swig_swig_tag: swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/build.make
 swig/_lets_test_some_stuff_swig_swig_tag: swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable _lets_test_some_stuff_swig_swig_tag"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable _lets_test_some_stuff_swig_swig_tag"
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/build: swig/_lets_test_some_stuff_swig_swig_tag
@@ -104,10 +104,10 @@ swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/requires: swig/CMakeFile
 .PHONY : swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/requires
 
 swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/clean:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/cmake_clean.cmake
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/cmake_clean.cmake
 .PHONY : swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/clean
 
 swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/depend:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/swig /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/swig /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/depend
 

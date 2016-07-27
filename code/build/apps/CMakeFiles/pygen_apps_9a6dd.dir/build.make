@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff
+CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build
+CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build
 
 # Utility rule file for pygen_apps_9a6dd.
 
@@ -63,10 +63,10 @@ apps/CMakeFiles/pygen_apps_9a6dd.dir/build: pygen_apps_9a6dd
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/build
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/clean:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/clean
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/depend:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/apps /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/apps /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/apps /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/apps /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/depend
 

@@ -8,23 +8,6 @@
       <node id="38">
         <label>boost/thread/mutex.hpp</label>
       </node>
-      <node id="33">
-        <label>taggedFileSource_impl.h</label>
-        <link refid="taggedFileSource_impl.h"/>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-      </node>
-      <node id="37">
-        <label>gnuradio/sync_block.h</label>
-      </node>
-      <node id="35">
-        <label>lets_test_some_stuff/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="36" relation="include">
-        </childnode>
-      </node>
       <node id="34">
         <label>lets_test_some_stuff/taggedFileSource.h</label>
         <link refid="taggedFileSource_8h"/>
@@ -33,8 +16,25 @@
         <childnode refid="37" relation="include">
         </childnode>
       </node>
+      <node id="37">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="33">
+        <label>taggedFileSource_impl.h</label>
+        <link refid="taggedFileSource_impl.h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
       <node id="36">
         <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="35">
+        <label>lets_test_some_stuff/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl" prot="public">gr::lets_test_some_stuff::taggedFileSource_impl</innerclass>
@@ -44,6 +44,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedFileSource_impl.h"/>
+    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedFileSource_impl.h"/>
   </compounddef>
 </doxygen>

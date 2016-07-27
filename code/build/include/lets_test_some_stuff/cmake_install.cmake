@@ -1,4 +1,4 @@
-# Install script for directory: /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff
+# Install script for directory: /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lets_test_some_stuff" TYPE FILE FILES
-    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/api.h"
-    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedFileSource.h"
-    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedHeader.h"
-    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedAccessCode.h"
-    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedPacketGate.h"
+    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/api.h"
+    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedFileSource.h"
+    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedHeader.h"
+    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedAccessCode.h"
+    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedPacketGate.h"
     )
 endif()
 

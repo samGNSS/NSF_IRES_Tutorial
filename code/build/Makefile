@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff
+CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build
+CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -270,30 +270,30 @@ _lets_test_some_stuff_swig_doc_tag/fast:
 .PHONY : _lets_test_some_stuff_swig_doc_tag/fast
 
 #=============================================================================
-# Target rules for targets named pygen_swig_104b7
+# Target rules for targets named pygen_swig_c2263
 
 # Build rule for target.
-pygen_swig_104b7: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pygen_swig_104b7
-.PHONY : pygen_swig_104b7
+pygen_swig_c2263: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pygen_swig_c2263
+.PHONY : pygen_swig_c2263
 
 # fast build rule for target.
-pygen_swig_104b7/fast:
-	$(MAKE) -f swig/CMakeFiles/pygen_swig_104b7.dir/build.make swig/CMakeFiles/pygen_swig_104b7.dir/build
-.PHONY : pygen_swig_104b7/fast
+pygen_swig_c2263/fast:
+	$(MAKE) -f swig/CMakeFiles/pygen_swig_c2263.dir/build.make swig/CMakeFiles/pygen_swig_c2263.dir/build
+.PHONY : pygen_swig_c2263/fast
 
 #=============================================================================
-# Target rules for targets named pygen_python_7a458
+# Target rules for targets named pygen_python_32cd2
 
 # Build rule for target.
-pygen_python_7a458: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pygen_python_7a458
-.PHONY : pygen_python_7a458
+pygen_python_32cd2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pygen_python_32cd2
+.PHONY : pygen_python_32cd2
 
 # fast build rule for target.
-pygen_python_7a458/fast:
-	$(MAKE) -f python/CMakeFiles/pygen_python_7a458.dir/build.make python/CMakeFiles/pygen_python_7a458.dir/build
-.PHONY : pygen_python_7a458/fast
+pygen_python_32cd2/fast:
+	$(MAKE) -f python/CMakeFiles/pygen_python_32cd2.dir/build.make python/CMakeFiles/pygen_python_32cd2.dir/build
+.PHONY : pygen_python_32cd2/fast
 
 #=============================================================================
 # Target rules for targets named pygen_apps_9a6dd
@@ -342,8 +342,8 @@ help:
 	@echo "... _lets_test_some_stuff_swig"
 	@echo "... lets_test_some_stuff_swig_swig_doc"
 	@echo "... _lets_test_some_stuff_swig_doc_tag"
-	@echo "... pygen_swig_104b7"
-	@echo "... pygen_python_7a458"
+	@echo "... pygen_swig_c2263"
+	@echo "... pygen_python_32cd2"
 	@echo "... pygen_apps_9a6dd"
 	@echo "... doxygen_target"
 .PHONY : help

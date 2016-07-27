@@ -6,18 +6,6 @@
     <includes local="no">gnuradio/block.h</includes>
     <includedby refid="taggedPacketGate__impl_8h" local="no">taggedPacketGate_impl.h</includedby>
     <incdepgraph>
-      <node id="53">
-        <label>lets_test_some_stuff/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="54" relation="include">
-        </childnode>
-      </node>
-      <node id="54">
-        <label>gnuradio/attributes.h</label>
-      </node>
-      <node id="55">
-        <label>gnuradio/block.h</label>
-      </node>
       <node id="52">
         <label>taggedPacketGate.h</label>
         <link refid="taggedPacketGate.h"/>
@@ -26,17 +14,29 @@
         <childnode refid="55" relation="include">
         </childnode>
       </node>
+      <node id="54">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="55">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="53">
+        <label>lets_test_some_stuff/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="57">
-        <label>taggedPacketGate_impl.h</label>
-        <link refid="taggedPacketGate__impl_8h"/>
-      </node>
       <node id="56">
         <label>taggedPacketGate.h</label>
         <link refid="taggedPacketGate.h"/>
         <childnode refid="57" relation="include">
         </childnode>
+      </node>
+      <node id="57">
+        <label>taggedPacketGate_impl.h</label>
+        <link refid="taggedPacketGate__impl_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedPacketGate" prot="public">gr::lets_test_some_stuff::taggedPacketGate</innerclass>
@@ -46,6 +46,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedPacketGate.h"/>
+    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedPacketGate.h"/>
   </compounddef>
 </doxygen>

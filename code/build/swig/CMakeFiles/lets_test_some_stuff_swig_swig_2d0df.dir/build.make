@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff
+CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build
+CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build
 
 # Include any dependencies generated for this target.
 include swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/depend.make
@@ -86,38 +86,28 @@ swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/consta
 swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/gr_extras.i
 swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/runtime_swig.i
 swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/tagged_stream_block.i
-swig/lets_test_some_stuff_swig_swig_2d0df.cpp: swig/lets_test_some_stuff_swig_doc.i
 swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/realtime.i
 swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/block_detail.i
 swig/lets_test_some_stuff_swig_swig_2d0df.cpp: swig/lets_test_some_stuff_swig.tag
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && /usr/bin/cmake -E copy /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swig_swig_2d0df.cpp.in /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swig_swig_2d0df.cpp
-
-swig/lets_test_some_stuff_swig_doc.i: swig/lets_test_some_stuff_swig_doc_swig_docs/xml/index.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating python docstrings for lets_test_some_stuff_swig_doc"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/docs/doxygen && /home/sam/anaconda2/bin/python2 -B /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/docs/doxygen/swig_doc.py /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swig_doc_swig_docs/xml /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swig_doc.i
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && /usr/bin/cmake -E copy /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/lets_test_some_stuff_swig_swig_2d0df.cpp.in /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/lets_test_some_stuff_swig_swig_2d0df.cpp
 
 swig/lets_test_some_stuff_swig.tag: swig/_lets_test_some_stuff_swig_swig_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating lets_test_some_stuff_swig.tag"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && ./_lets_test_some_stuff_swig_swig_tag
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && /usr/bin/cmake -E touch /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swig.tag
-
-swig/lets_test_some_stuff_swig_doc_swig_docs/xml/index.xml: swig/_lets_test_some_stuff_swig_doc_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating doxygen xml for lets_test_some_stuff_swig_doc docs"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && ./_lets_test_some_stuff_swig_doc_tag
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && /usr/bin/doxygen /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swig_doc_swig_docs/Doxyfile
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating lets_test_some_stuff_swig.tag"
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && ./_lets_test_some_stuff_swig_swig_tag
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && /usr/bin/cmake -E touch /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/lets_test_some_stuff_swig.tag
 
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o: swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/flags.make
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o: swig/lets_test_some_stuff_swig_swig_2d0df.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o -c /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swig_swig_2d0df.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o"
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o -c /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/lets_test_some_stuff_swig_swig_2d0df.cpp
 
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.i"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swig_swig_2d0df.cpp > CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.i
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/lets_test_some_stuff_swig_swig_2d0df.cpp > CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.i
 
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.s"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swig_swig_2d0df.cpp -o CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.s
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/lets_test_some_stuff_swig_swig_2d0df.cpp -o CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.s
 
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o.requires:
 
@@ -140,11 +130,11 @@ lets_test_some_stuff_swig_swig_2d0df_EXTERNAL_OBJECTS =
 swig/lets_test_some_stuff_swig_swig_2d0df: swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o
 swig/lets_test_some_stuff_swig_swig_2d0df: swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/build.make
 swig/lets_test_some_stuff_swig_swig_2d0df: swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lets_test_some_stuff_swig_swig_2d0df"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lets_test_some_stuff_swig_swig_2d0df"
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Swig source"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && /usr/bin/cmake -E make_directory /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && /usr/bin/swig2.0 -python -fvirtual -modern -keyword -w511 -module lets_test_some_stuff_swig -DSIZE_T_UL -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/swig -I/usr/include/gnuradio/swig -I/home/sam/anaconda2/include/python2.7 -I/home/sam/anaconda2/include/python2.7 -outdir /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig -c++ -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/include -I/usr/include -I/usr/include -I/usr/include -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/swig -I/usr/include/gnuradio/swig -I/home/sam/anaconda2/include/python2.7 -I/home/sam/anaconda2/include/python2.7 -o /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swigPYTHON_wrap.cxx /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/swig/lets_test_some_stuff_swig.i
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && /usr/bin/cmake -E make_directory /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && /usr/bin/swig2.0 -python -fvirtual -modern -keyword -w511 -module lets_test_some_stuff_swig -DSIZE_T_UL -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/swig -I/usr/include/gnuradio/swig -I/home/sam/anaconda2/include/python2.7 -I/home/sam/anaconda2/include/python2.7 -outdir /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig -c++ -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/include -I/usr/include -I/usr/include -I/usr/include -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/swig -I/usr/include/gnuradio/swig -I/home/sam/anaconda2/include/python2.7 -I/home/sam/anaconda2/include/python2.7 -o /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/lets_test_some_stuff_swigPYTHON_wrap.cxx /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/swig/lets_test_some_stuff_swig.i
 
 # Rule to build all files generated by this target.
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/build: swig/lets_test_some_stuff_swig_swig_2d0df
@@ -156,13 +146,11 @@ swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/requires: swig/CMakeFil
 .PHONY : swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/requires
 
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/clean:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/cmake_clean.cmake
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/cmake_clean.cmake
 .PHONY : swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/clean
 
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/depend: swig/lets_test_some_stuff_swig_swig_2d0df.cpp
-swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/depend: swig/lets_test_some_stuff_swig_doc.i
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/depend: swig/lets_test_some_stuff_swig.tag
-swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/depend: swig/lets_test_some_stuff_swig_doc_swig_docs/xml/index.xml
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/swig /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/swig /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/depend
 

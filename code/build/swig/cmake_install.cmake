@@ -1,4 +1,4 @@
-# Install script for directory: /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/swig
+# Install script for directory: /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/swig
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/lets_test_some_stuff/_lets_test_some_stuff_swig.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/lets_test_some_stuff" TYPE MODULE FILES "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/_lets_test_some_stuff_swig.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/lets_test_some_stuff" TYPE MODULE FILES "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/_lets_test_some_stuff_swig.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/lets_test_some_stuff/_lets_test_some_stuff_swig.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/lets_test_some_stuff/_lets_test_some_stuff_swig.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/lets_test_some_stuff/_lets_test_some_stuff_swig.so"
-         OLD_RPATH "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib:"
+         OLD_RPATH "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/lets_test_some_stuff/_lets_test_some_stuff_swig.so")
@@ -53,20 +53,20 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/lets_test_some_stuff" TYPE FILE FILES "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swig.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/lets_test_some_stuff" TYPE FILE FILES "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/lets_test_some_stuff_swig.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/lets_test_some_stuff" TYPE FILE FILES
-    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swig.pyc"
-    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swig.pyo"
+    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/lets_test_some_stuff_swig.pyc"
+    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/lets_test_some_stuff_swig.pyo"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lets_test_some_stuff/lets_test_some_stuff/swig" TYPE FILE FILES
-    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/swig/lets_test_some_stuff_swig.i"
-    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/lets_test_some_stuff_swig_doc.i"
+    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/swig/lets_test_some_stuff_swig.i"
+    "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/lets_test_some_stuff_swig_doc.i"
     )
 endif()
 

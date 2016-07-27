@@ -6,17 +6,8 @@
     <includes local="no">gnuradio/tagged_stream_block.h</includes>
     <includedby refid="taggedHeader__impl_8h" local="no">taggedHeader_impl.h</includedby>
     <incdepgraph>
-      <node id="41">
-        <label>lets_test_some_stuff/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="42" relation="include">
-        </childnode>
-      </node>
       <node id="42">
         <label>gnuradio/attributes.h</label>
-      </node>
-      <node id="43">
-        <label>gnuradio/tagged_stream_block.h</label>
       </node>
       <node id="40">
         <label>taggedHeader.h</label>
@@ -25,6 +16,15 @@
         </childnode>
         <childnode refid="43" relation="include">
         </childnode>
+      </node>
+      <node id="41">
+        <label>lets_test_some_stuff/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>gnuradio/tagged_stream_block.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -46,6 +46,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedHeader.h"/>
+    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedHeader.h"/>
   </compounddef>
 </doxygen>

@@ -4,14 +4,20 @@
     <compoundname>taggedAccessCode_impl.h</compoundname>
     <includes refid="taggedAccessCode_8h" local="no">lets_test_some_stuff/taggedAccessCode.h</includes>
     <incdepgraph>
+      <node id="21">
+        <label>taggedAccessCode_impl.h</label>
+        <link refid="taggedAccessCode_impl.h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>gnuradio/attributes.h</label>
+      </node>
       <node id="23">
         <label>lets_test_some_stuff/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="24" relation="include">
         </childnode>
-      </node>
-      <node id="24">
-        <label>gnuradio/attributes.h</label>
       </node>
       <node id="22">
         <label>lets_test_some_stuff/taggedAccessCode.h</label>
@@ -24,12 +30,6 @@
       <node id="25">
         <label>gnuradio/tagged_stream_block.h</label>
       </node>
-      <node id="21">
-        <label>taggedAccessCode_impl.h</label>
-        <link refid="taggedAccessCode_impl.h"/>
-        <childnode refid="22" relation="include">
-        </childnode>
-      </node>
     </incdepgraph>
     <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode__impl" prot="public">gr::lets_test_some_stuff::taggedAccessCode_impl</innerclass>
     <innernamespace refid="namespacegr">gr</innernamespace>
@@ -38,6 +38,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedAccessCode_impl.h"/>
+    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedAccessCode_impl.h"/>
   </compounddef>
 </doxygen>

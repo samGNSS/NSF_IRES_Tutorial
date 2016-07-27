@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff
+CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build
+CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,17 +100,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -133,16 +122,27 @@ install/local/fast: install/local
 
 .PHONY : install/local/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/python/CMakeFiles/progress.marks
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(MAKE) -f CMakeFiles/Makefile2 python/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles 0
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/python/CMakeFiles/progress.marks
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(MAKE) -f CMakeFiles/Makefile2 python/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(MAKE) -f CMakeFiles/Makefile2 python/clean
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(MAKE) -f CMakeFiles/Makefile2 python/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,33 +152,33 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(MAKE) -f CMakeFiles/Makefile2 python/preinstall
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(MAKE) -f CMakeFiles/Makefile2 python/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(MAKE) -f CMakeFiles/Makefile2 python/preinstall
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(MAKE) -f CMakeFiles/Makefile2 python/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-python/CMakeFiles/pygen_python_7a458.dir/rule:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(MAKE) -f CMakeFiles/Makefile2 python/CMakeFiles/pygen_python_7a458.dir/rule
-.PHONY : python/CMakeFiles/pygen_python_7a458.dir/rule
+python/CMakeFiles/pygen_python_32cd2.dir/rule:
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(MAKE) -f CMakeFiles/Makefile2 python/CMakeFiles/pygen_python_32cd2.dir/rule
+.PHONY : python/CMakeFiles/pygen_python_32cd2.dir/rule
 
 # Convenience name for target.
-pygen_python_7a458: python/CMakeFiles/pygen_python_7a458.dir/rule
+pygen_python_32cd2: python/CMakeFiles/pygen_python_32cd2.dir/rule
 
-.PHONY : pygen_python_7a458
+.PHONY : pygen_python_32cd2
 
 # fast build rule for target.
-pygen_python_7a458/fast:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(MAKE) -f python/CMakeFiles/pygen_python_7a458.dir/build.make python/CMakeFiles/pygen_python_7a458.dir/build
-.PHONY : pygen_python_7a458/fast
+pygen_python_32cd2/fast:
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(MAKE) -f python/CMakeFiles/pygen_python_32cd2.dir/build.make python/CMakeFiles/pygen_python_32cd2.dir/build
+.PHONY : pygen_python_32cd2/fast
 
 # Help Target
 help:
@@ -190,10 +190,10 @@ help:
 	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... pygen_python_7a458"
-	@echo "... test"
+	@echo "... pygen_python_32cd2"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... test"
 .PHONY : help
 
 
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff
+# Install script for directory: /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lets_test_some_stuff" TYPE FILE FILES "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/cmake/Modules/lets_test_some_stuffConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lets_test_some_stuff" TYPE FILE FILES "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/cmake/Modules/lets_test_some_stuffConfig.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/include/lets_test_some_stuff/cmake_install.cmake")
-  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib/cmake_install.cmake")
-  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig/cmake_install.cmake")
-  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/python/cmake_install.cmake")
-  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/grc/cmake_install.cmake")
-  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/apps/cmake_install.cmake")
-  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/docs/cmake_install.cmake")
+  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/include/lets_test_some_stuff/cmake_install.cmake")
+  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib/cmake_install.cmake")
+  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig/cmake_install.cmake")
+  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/python/cmake_install.cmake")
+  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/grc/cmake_install.cmake")
+  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/apps/cmake_install.cmake")
+  include("/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/docs/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

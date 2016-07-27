@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -fvisibility=hidden
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/include -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/swig -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/swig -I/usr/include/gnuradio/swig -I/home/sam/anaconda2/include/python2.7 
+CXX_INCLUDES = -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/include -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/swig -I/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/swig -I/usr/include/gnuradio/swig -I/home/sam/anaconda2/include/python2.7 
 

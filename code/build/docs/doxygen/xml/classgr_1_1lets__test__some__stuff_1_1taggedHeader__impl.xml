@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedHeader_impl.h" line="32" column="1" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedHeader_impl.h" bodystart="32" bodyend="-1"/>
+        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedHeader_impl.h" line="32" column="1" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedHeader_impl.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedHeader_impl.h" line="34" column="1"/>
+        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedHeader_impl.h" line="34" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedHeader_impl.h" line="37" column="1"/>
+        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedHeader_impl.h" line="37" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1lets__test__some__stuff_1_1taggedHeader__impl_1a1c442f261e7fc15c1d72b0572c3ecb59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedHeader_impl.h" line="38" column="1"/>
+        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedHeader_impl.h" line="38" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1lets__test__some__stuff_1_1taggedHeader__impl_1a271cea04b31559b1fac802c552e073d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedHeader_impl.h" line="41" column="1"/>
+        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedHeader_impl.h" line="41" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -133,7 +133,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedHeader_impl.h" line="30" column="1" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedHeader_impl.h" bodystart="29" bodyend="45"/>
+    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedHeader_impl.h" line="30" column="1" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedHeader_impl.h" bodystart="29" bodyend="45"/>
     <listofallmembers>
       <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader__impl_1a6a27f2409ce69e283c3a38e9cdd75785" prot="protected" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedHeader_impl</scope><name>calculate_output_stream_length</name></member>
       <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader__impl_1a4db1f7011740b821d85e96d834020e73" prot="private" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedHeader_impl</scope><name>d_packetNumber</name></member>

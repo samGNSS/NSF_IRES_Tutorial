@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedFileSource.h" line="41" column="1" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedFileSource.h" bodystart="41" bodyend="-1"/>
+        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedFileSource.h" line="41" column="1" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedFileSource.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -72,7 +72,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedFileSource.h" line="58" column="1"/>
+        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedFileSource.h" line="58" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -111,7 +111,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedFileSource.h" line="66" column="1"/>
+        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedFileSource.h" line="66" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1lets__test__some__stuff_1_1taggedFileSource_1aa3974b8d404414a66546449a87508b18" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -148,7 +148,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedFileSource.h" line="74" column="1"/>
+        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedFileSource.h" line="74" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1lets__test__some__stuff_1_1taggedFileSource_1a2b8a060a7033634d8401215f345e0156" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedFileSource.h" line="79" column="1"/>
+        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedFileSource.h" line="79" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -197,7 +197,7 @@
         <label>sync_block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedFileSource.h" line="37" column="1" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedFileSource.h" bodystart="36" bodyend="80"/>
+    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedFileSource.h" line="37" column="1" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedFileSource.h" bodystart="36" bodyend="80"/>
     <listofallmembers>
       <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource_1a2b8a060a7033634d8401215f345e0156" prot="public" virt="pure-virtual"><scope>gr::lets_test_some_stuff::taggedFileSource</scope><name>close</name></member>
       <member refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource_1a6c82fed47e0b48a575a04a74c6ea52d9" prot="public" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedFileSource</scope><name>make</name></member>

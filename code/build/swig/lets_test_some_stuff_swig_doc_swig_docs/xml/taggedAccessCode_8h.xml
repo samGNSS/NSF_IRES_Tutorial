@@ -5,17 +5,17 @@
     <includes refid="api_8h" local="no">lets_test_some_stuff/api.h</includes>
     <includes local="no">gnuradio/tagged_stream_block.h</includes>
     <incdepgraph>
+      <node id="9">
+        <label>gnuradio/attributes.h</label>
+      </node>
       <node id="8">
         <label>lets_test_some_stuff/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="9">
-        <label>gnuradio/attributes.h</label>
-      </node>
       <node id="7">
-        <label>/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedAccessCode.h</label>
+        <label>/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedAccessCode.h</label>
         <link refid="taggedAccessCode.h"/>
         <childnode refid="8" relation="include">
         </childnode>
@@ -78,6 +78,6 @@
 <codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_LETS_TEST_SOME_STUFF_TAGGEDACCESSCODE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedAccessCode.h"/>
+    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedAccessCode.h"/>
   </compounddef>
 </doxygen>

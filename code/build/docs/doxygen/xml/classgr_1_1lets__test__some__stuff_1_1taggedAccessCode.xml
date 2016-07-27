@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedAccessCode.h" line="39" column="1" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedAccessCode.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedAccessCode.h" line="39" column="1" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedAccessCode.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -32,7 +32,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode" kindref="compound">lets_test_some_stuff::taggedAccessCode</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode_1a02fde77d290d301d79f77e1201daecdc" kindref="member">lets_test_some_stuff::taggedAccessCode::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedAccessCode.h" line="49" column="1"/>
+        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedAccessCode.h" line="49" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -67,7 +67,7 @@
         <label>gr::tagged_stream_block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedAccessCode.h" line="37" column="1" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/taggedAccessCode.h" bodystart="36" bodyend="50"/>
+    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedAccessCode.h" line="37" column="1" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/taggedAccessCode.h" bodystart="36" bodyend="50"/>
     <listofallmembers>
       <member refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode_1a02fde77d290d301d79f77e1201daecdc" prot="public" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedAccessCode</scope><name>make</name></member>
       <member refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode_1af44434186069fdc12689890bb680af69" prot="public" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedAccessCode</scope><name>sptr</name></member>

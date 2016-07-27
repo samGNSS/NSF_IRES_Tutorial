@@ -170,8 +170,6 @@ namespace gr {
       if(startFlag)
       {
         //first output packet will be all zeros
-        //char *zeros = new char[d_blockLength];
-        //std::memset(zeros,0,d_blockLength); //init with zeros
         std::memcpy(o,pad,d_blockLength); //copy to output buffer
         /*
         Get tags
@@ -202,7 +200,6 @@ namespace gr {
       	// of the file and try again, else break
       	if(!d_repeat)
         {
-          std::cout << "WTF? lrn2ply! " << "Size is " << size << std::endl;
       	  break;
         }
       	if(fseek ((FILE *) d_fp, 0, SEEK_SET) == -1) {
@@ -212,11 +209,8 @@ namespace gr {
       }
 
       if(size > 0) {	     		// EOF or error
-        //std::cout << "here" << std::endl;
 	       if((size == noutput_items) && (endFlag < 4))
          {
-            if (noutput_items < d_blockLength)
-              std::cout << "Thats a 50 dkp minus" << std::endl;
             // we didn't read anything, assume we are at the end of the file and pad with zeros
             std::memcpy(o,pad,d_blockLength);
             while(d_next_tag_pos < nitems_written(0) + d_blockLength) {

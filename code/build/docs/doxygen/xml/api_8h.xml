@@ -8,20 +8,50 @@
     <includedby refid="taggedHeader_8h" local="no">taggedHeader.h</includedby>
     <includedby refid="taggedPacketGate_8h" local="no">taggedPacketGate.h</includedby>
     <incdepgraph>
+      <node id="1">
+        <label>gnuradio/attributes.h</label>
+      </node>
       <node id="0">
         <label>api.h</label>
         <link refid="api.h"/>
         <childnode refid="1" relation="include">
         </childnode>
       </node>
-      <node id="1">
-        <label>gnuradio/attributes.h</label>
-      </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="8">
+        <label>taggedHeader_impl.h</label>
+        <link refid="taggedHeader__impl_8h"/>
+      </node>
+      <node id="4">
+        <label>taggedAccessCode_impl.h</label>
+        <link refid="taggedAccessCode__impl_8h"/>
+      </node>
+      <node id="9">
+        <label>taggedPacketGate.h</label>
+        <link refid="taggedPacketGate_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>taggedFileSource.h</label>
+        <link refid="taggedFileSource_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
       <node id="6">
         <label>taggedFileSource_impl.h</label>
         <link refid="taggedFileSource__impl_8h"/>
+      </node>
+      <node id="10">
+        <label>taggedPacketGate_impl.h</label>
+        <link refid="taggedPacketGate__impl_8h"/>
+      </node>
+      <node id="7">
+        <label>taggedHeader.h</label>
+        <link refid="taggedHeader_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>api.h</label>
@@ -35,40 +65,10 @@
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>taggedFileSource.h</label>
-        <link refid="taggedFileSource_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>taggedPacketGate_impl.h</label>
-        <link refid="taggedPacketGate__impl_8h"/>
-      </node>
-      <node id="8">
-        <label>taggedHeader_impl.h</label>
-        <link refid="taggedHeader__impl_8h"/>
-      </node>
       <node id="3">
         <label>taggedAccessCode.h</label>
         <link refid="taggedAccessCode_8h"/>
         <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>taggedAccessCode_impl.h</label>
-        <link refid="taggedAccessCode__impl_8h"/>
-      </node>
-      <node id="7">
-        <label>taggedHeader.h</label>
-        <link refid="taggedHeader_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>taggedPacketGate.h</label>
-        <link refid="taggedPacketGate_8h"/>
-        <childnode refid="10" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -82,13 +82,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/api.h" line="30" column="12" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/api.h" bodystart="30" bodyend="-1"/>
+        <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/api.h" line="30" column="12" bodyfile="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/api.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/include/lets_test_some_stuff/api.h"/>
+    <location file="/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/include/lets_test_some_stuff/api.h"/>
   </compounddef>
 </doxygen>

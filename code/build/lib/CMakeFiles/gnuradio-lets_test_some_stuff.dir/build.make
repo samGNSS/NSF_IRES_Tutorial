@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff
+CMAKE_SOURCE_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build
+CMAKE_BINARY_DIR = /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/depend.make
@@ -59,16 +59,16 @@ include lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/flags.make
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.o: lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/flags.make
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.o: ../lib/taggedFileSource_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.o"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.o -c /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedFileSource_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.o"
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.o -c /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedFileSource_impl.cc
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.i"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedFileSource_impl.cc > CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.i
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedFileSource_impl.cc > CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.i
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.s"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedFileSource_impl.cc -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.s
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedFileSource_impl.cc -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.s
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.o.requires:
 
@@ -83,16 +83,16 @@ lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.o.prov
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.o: lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/flags.make
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.o: ../lib/taggedHeader_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.o"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.o -c /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedHeader_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.o"
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.o -c /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedHeader_impl.cc
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.i"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedHeader_impl.cc > CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.i
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedHeader_impl.cc > CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.i
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.s"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedHeader_impl.cc -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.s
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedHeader_impl.cc -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.s
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.o.requires:
 
@@ -107,16 +107,16 @@ lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.o.provides
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.o: lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/flags.make
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.o: ../lib/taggedAccessCode_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.o"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.o -c /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedAccessCode_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.o"
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.o -c /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedAccessCode_impl.cc
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.i"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedAccessCode_impl.cc > CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.i
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedAccessCode_impl.cc > CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.i
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.s"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedAccessCode_impl.cc -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.s
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedAccessCode_impl.cc -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.s
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.o.requires:
 
@@ -131,16 +131,16 @@ lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.o.prov
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.o: lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/flags.make
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.o: ../lib/taggedPacketGate_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.o"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.o -c /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedPacketGate_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.o"
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.o -c /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedPacketGate_impl.cc
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.i"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedPacketGate_impl.cc > CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.i
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedPacketGate_impl.cc > CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.i
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.s"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib/taggedPacketGate_impl.cc -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.s
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib/taggedPacketGate_impl.cc -o CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.s
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.o.requires:
 
@@ -173,8 +173,8 @@ lib/libgnuradio-lets_test_some_stuff.so: /usr/lib/x86_64-linux-gnu/libboost_syst
 lib/libgnuradio-lets_test_some_stuff.so: /usr/lib/x86_64-linux-gnu/libgnuradio-runtime.so
 lib/libgnuradio-lets_test_some_stuff.so: /usr/lib/x86_64-linux-gnu/libgnuradio-pmt.so
 lib/libgnuradio-lets_test_some_stuff.so: lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libgnuradio-lets_test_some_stuff.so"
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-lets_test_some_stuff.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libgnuradio-lets_test_some_stuff.so"
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-lets_test_some_stuff.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build: lib/libgnuradio-lets_test_some_stuff.so
@@ -189,10 +189,10 @@ lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/requires: lib/CMakeFiles/gnurad
 .PHONY : lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/requires
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/clean:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/gnuradio-lets_test_some_stuff.dir/cmake_clean.cmake
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/gnuradio-lets_test_some_stuff.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/clean
 
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/depend:
-	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/lib /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/build/lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/lib /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib /home/sam/Documents/GNU_RADIO/blocks/gr-lets_test_some_stuff/code/build/lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/depend
 
