@@ -48,8 +48,7 @@ namespace gr {
 
       int endFlag;
       bool startFlag;
-      char *pad;
-
+      
       void do_update();
 
     public:

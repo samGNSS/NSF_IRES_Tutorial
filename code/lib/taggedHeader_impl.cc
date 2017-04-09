@@ -35,22 +35,14 @@ namespace gr {
         (new taggedHeader_impl());
     }
 
-    /*
-     * The private constructor
-     */
     taggedHeader_impl::taggedHeader_impl()
       : gr::tagged_stream_block("taggedHeader",
               gr::io_signature::make(1, 1, sizeof(char)),
               gr::io_signature::make(1, 1, sizeof(char)), "packet_len"),
               d_packetNumber(0)
-    {}
+	      {}
 
-    /*
-     * Our virtual destructor.
-     */
-    taggedHeader_impl::~taggedHeader_impl()
-    {
-    }
+    taggedHeader_impl::~taggedHeader_impl(){}
 
     int
     taggedHeader_impl::calculate_output_stream_length(const gr_vector_int &ninput_items)
@@ -66,34 +58,24 @@ namespace gr {
     {
       const char *in = (const char *) input_items[0];
       char *out = (char *) output_items[0];
-      long packet_length = ninput_items[0];
-      //Do header stuff
-      char *headerBuff = new char[4]; //4 byte header
-      //fill the buffer: store the packet number then length all as MSB first
-      // headerBuff[0] = 0x0FF & (d_packetNumber >> 8); //upper byte of packNumber
-      // headerBuff[1] = 0x0FF & (d_packetNumber); //lower byte of packNumber
-      headerBuff[0] = 0x0FF & (packet_length >> 8); //upper byte of noutput_items (packet size)
-      headerBuff[1] = 0x0FF & (packet_length); //lower byte of noutput_items (pcket size)
-      headerBuff[2] = 0x0FF & (packet_length >> 8); //upper byte of noutput_items (packet size)
-      headerBuff[3] = 0x0FF & (packet_length); //lower byte of noutput_items (pcket size)
-
+      //completly forgot why this works...
+      uint8_t header[] = {0x0FF & (ninput_items[0] >> 8),0x0FF & (ninput_items[0]),0x0FF & (ninput_items[0] >> 8),0x0FF & (ninput_items[0])};
+           
       //fill output buffer
-      std::memcpy(out,headerBuff,4); //put header at the top
-      std::memcpy(out+4,in,packet_length); //fill the packet after the header
+      std::memcpy(out,header,4); //put header at the top
+      std::memcpy(out+4,in,ninput_items[0]); //fill the packet after the header
       d_packetNumber++;
       /*
       Rearange the tags
       */
       std::vector <tag_t> tags;
-      get_tags_in_range(tags, 0, nitems_read(0), nitems_read(0) + packet_length);
+      get_tags_in_range(tags, 0, nitems_read(0), nitems_read(0) + ninput_items[0]);
       for (size_t i = 0; i < tags.size(); i++) {
         tags[i].offset -= nitems_read(0);
         add_item_tag(0, nitems_written(0) + tags[i].offset,tags[i].key,tags[i].value);
-        //probably need to move the memcpy code into this loop...
       }
-      delete[] headerBuff;
       // Tell runtime system how many output items we produced.
-      return packet_length + 4;
+      return ninput_items[0] + 4;
     }
 
   } /* namespace lets_test_some_stuff */

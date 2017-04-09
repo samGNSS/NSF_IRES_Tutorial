@@ -25,16 +25,7 @@
 #include <gnuradio/io_signature.h>
 #include "taggedAccessCode_impl.h"
 
-#define accessCode1 '\xB7'
-#define accessCode2 '\x97'
-#define accessCode3 '\x12'
-#define accessCode4 '\xF9'
-#define accessCode5 '\xAF'
-#define accessCode6 '\x2D'
-#define accessCode7 '\xF9'
-#define accessCode8 '\xAF'
-// #define accessCode9 '\x12'
-
+#define accessCode "\xB7\x97\x12\xF9\xAF\x2D\xF9\xAF\x12"
 
 namespace gr {
   namespace lets_test_some_stuff {
@@ -46,28 +37,23 @@ namespace gr {
         (new taggedAccessCode_impl());
     }
 
-    /*
-     * The private constructor
-     */
     taggedAccessCode_impl::taggedAccessCode_impl()
       : gr::tagged_stream_block("taggedAccessCode",
               gr::io_signature::make(1, 1, sizeof(char)),
               gr::io_signature::make(1, 1, sizeof(char)), "packet_len")
     {}
 
-    /*
-     * Our virtual destructor.
-     */
-    taggedAccessCode_impl::~taggedAccessCode_impl()
-    {
-    }
+    taggedAccessCode_impl::~taggedAccessCode_impl(){}
 
+    //tell the run time system (scheduler) that we will return ninput_items + 8 output items
     int
     taggedAccessCode_impl::calculate_output_stream_length(const gr_vector_int &ninput_items)
     {
       return ninput_items[0] + 8;
     }
 
+    
+    //append the access code to the input stream
     int
     taggedAccessCode_impl::work (int noutput_items,
                        gr_vector_int &ninput_items,
@@ -78,22 +64,10 @@ namespace gr {
       char *out = (char *) output_items[0];
       long packet_length = ninput_items[0];
       //append access code
-      //Do header stuff
-      char *accessBuff = new char[8]; //8 byte access code header
-      //fill the buffer: store the packet number then length all as MSB first
-      accessBuff[0] = accessCode1;
-      accessBuff[1] = accessCode2;
-      accessBuff[2] = accessCode3;
-      accessBuff[3] = accessCode4;
-      accessBuff[4] = accessCode5;
-      accessBuff[5] = accessCode6;
-      accessBuff[6] = accessCode7;
-      accessBuff[7] = accessCode8;
-      // accessBuff[8] = accessCode9;
-
-      //fill output buffer
-      std::memcpy(out,accessBuff,8); //put header at the top
-      std::memcpy(out+8,in,packet_length); //fill the packet after the header
+      std::memcpy(out,accessCode,8);
+      
+      //fill the packet after the header
+      std::memcpy(out+8,in,packet_length); 
 
       /*
       Rearange the tags
@@ -103,9 +77,8 @@ namespace gr {
       for (size_t i = 0; i < tags.size(); i++) {
         tags[i].offset -= nitems_read(0);
         add_item_tag(0, nitems_written(0) + tags[i].offset,tags[i].key,tags[i].value);
-        //probably need to move the memcpy code into this loop...
       }
-      delete[] accessBuff;
+      
       // Tell runtime system how many output items we produced.
       return packet_length + 8;
     }

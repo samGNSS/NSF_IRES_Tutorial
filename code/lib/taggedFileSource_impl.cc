@@ -50,6 +50,8 @@
 #define	OUR_O_LARGEFILE 0
 #endif
 
+#define numFlushBuffs 2
+
 namespace gr {
   namespace lets_test_some_stuff {
 
@@ -74,13 +76,12 @@ namespace gr {
       d_next_tag_pos = 0;
       endFlag = 0;
       startFlag = 1;
-      pad = new char[d_blockLength];
-      std::memset(pad,0,d_blockLength); //get an array of zeros
+//       pad = new char[d_blockLength];
+//       std::memset(pad,0,d_blockLength); //get an array of zeros
     }
 
     taggedFileSource_impl::~taggedFileSource_impl()
     {
-      delete[] pad;
       if(d_fp)
         fclose ((FILE*)d_fp);
       if(d_new_fp)
@@ -164,71 +165,56 @@ namespace gr {
       if(d_fp == NULL)
 	     throw std::runtime_error("work with file not open");
 
-      //gr::thread::scoped_lock lock(fp_mutex); // hold for the rest of this function
-
       //check start flag
       if(startFlag)
       {
         //first output packet will be all zeros
-        std::memcpy(o,pad,d_blockLength); //copy to output buffer
-        /*
-        Get tags
-        */
-        //std::cout << nitems_written(0) << std::endl;
-        while(d_next_tag_pos < nitems_written(0) + d_blockLength) {
-          add_item_tag(0, d_next_tag_pos, d_len_tag_key, d_packet_len_pmt);
-          d_next_tag_pos += d_blockLength;
-        }
+        std::memset(o,0,d_blockLength); //copy to output buffer
         startFlag = 0; //clear start flag
-        return d_blockLength; //return
+        while(d_next_tag_pos < nitems_written(0) + d_blockLength) {
+             add_item_tag(0, d_next_tag_pos, d_len_tag_key, d_packet_len_pmt);
+             d_next_tag_pos += d_blockLength;
+	}
+	return d_blockLength;
+      }else{
+	while(size) {
+		i = fread(o, d_itemsize, size, (FILE*)d_fp);
+
+		size -= i;
+		o += i * d_itemsize;
+
+	  if(size == 0)		// done
+	    break;
+
+	  if(i > 0)			// short read, try again
+	    continue;
+
+	  // We got a zero from fread.  This is either EOF or error.  In
+	  // any event, if we're in repeat mode, seek back to the beginning
+	  // of the file and try again, else break
+	  if(!d_repeat)
+	  {
+	    break;
+	  }
+	  if(fseek ((FILE *) d_fp, 0, SEEK_SET) == -1) {
+	    fprintf(stderr, "[%s] fseek failed\n", __FILE__);
+	    exit(-1);
+	  }
+	}
       }
-
-      while(size) {
-	       i = fread(o, d_itemsize, size, (FILE*)d_fp);
-
-	      size -= i;
-	      o += i * d_itemsize;
-
-      	if(size == 0)		// done
-      	  break;
-
-      	if(i > 0)			// short read, try again
-      	  continue;
-
-      	// We got a zero from fread.  This is either EOF or error.  In
-      	// any event, if we're in repeat mode, seek back to the beginning
-      	// of the file and try again, else break
-      	if(!d_repeat)
-        {
-      	  break;
-        }
-      	if(fseek ((FILE *) d_fp, 0, SEEK_SET) == -1) {
-      	  fprintf(stderr, "[%s] fseek failed\n", __FILE__);
-      	  exit(-1);
-      	}
-      }
-
       if(size > 0) {	     		// EOF or error
-	       if((size == noutput_items) && (endFlag < 4))
-         {
+	if((size == noutput_items) && (endFlag < numFlushBuffs)){
             // we didn't read anything, assume we are at the end of the file and pad with zeros
-            std::memcpy(o,pad,d_blockLength);
+            std::memset(o,0,d_blockLength);
             while(d_next_tag_pos < nitems_written(0) + d_blockLength) {
              add_item_tag(0, d_next_tag_pos, d_len_tag_key, d_packet_len_pmt);
              d_next_tag_pos += d_blockLength;
             }
-            endFlag++;
-            std::cout << endFlag << std::endl;
-  	        return noutput_items;
-           }
-           else if (endFlag >= 4)
-          {return -1;}
-        // while(d_next_tag_pos < nitems_written(0) + d_blockLength) {
-        //  add_item_tag(0, d_next_tag_pos, d_len_tag_key, d_packet_len_pmt);
-        //  std::cout << "Many welps " << "Offset is " << d_next_tag_pos << std::endl;
-        //  d_next_tag_pos += d_blockLength;
-        // }
-  	    // return noutput_items - size;	// else return partial result
+            ++endFlag;
+	    return d_blockLength;
+	}else if (endFlag >= numFlushBuffs){
+	     return -1;
+	}
       }
 
       /*
