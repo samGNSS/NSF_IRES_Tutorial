@@ -41,10 +41,7 @@ namespace gr {
       /*!
        * \brief Return a shared_ptr to a new instance of lets_test_some_stuff::taggedHeader.
        *
-       * To avoid accidental use of raw pointers, lets_test_some_stuff::taggedHeader's
-       * constructor is in a private implementation
-       * class. lets_test_some_stuff::taggedHeader::make is the public interface for
-       * creating new instances.
+       * Appends a header to a stream of data
        */
       static sptr make();
     };

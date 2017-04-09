@@ -30,8 +30,10 @@ namespace gr {
     {
      private:
        unsigned short d_packetNumber;
+       unsigned short d_msgType;
+       short unsigned int getMsgType(gr_vector_int &ninput_items,gr_vector_const_void_star &input_items);
      protected:
-      int calculate_output_stream_length(const gr_vector_int &ninput_items);
+       int calculate_output_stream_length(const gr_vector_int &ninput_items);
 
      public:
       taggedHeader_impl();

@@ -54,6 +54,7 @@ namespace gr {
        * \param itemsize	the size of each item in the file, in bytes
        * \param filename	name of the file to source from
        * \param repeat	repeat file from start
+       * \param blockLength minimum number of samples per block
        */
       static sptr make(size_t itemsize, const char *filename, bool repeat = false,int blockLength = 0);
 

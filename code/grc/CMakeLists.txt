@@ -19,6 +19,7 @@
 install(FILES
     lets_test_some_stuff_taggedFileSource.xml
     lets_test_some_stuff_taggedHeader.xml
+    lets_test_some_stuff_taggedHeaderParser.xml
     lets_test_some_stuff_taggedAccessCode.xml
     lets_test_some_stuff_taggedPacketGate.xml DESTINATION share/gnuradio/grc/blocks
 )

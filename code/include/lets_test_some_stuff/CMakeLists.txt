@@ -24,6 +24,7 @@ install(FILES
     api.h
     taggedFileSource.h
     taggedHeader.h
+    taggedHeaderParser.h
     taggedAccessCode.h
     taggedPacketGate.h DESTINATION include/lets_test_some_stuff
 )

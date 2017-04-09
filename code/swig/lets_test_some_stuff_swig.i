@@ -10,6 +10,7 @@
 %{
 #include "lets_test_some_stuff/taggedFileSource.h"
 #include "lets_test_some_stuff/taggedHeader.h"
+#include "lets_test_some_stuff/taggedHeaderParser.h"
 #include "lets_test_some_stuff/taggedAccessCode.h"
 #include "lets_test_some_stuff/taggedPacketGate.h"
 %}
@@ -18,6 +19,8 @@
 GR_SWIG_BLOCK_MAGIC2(lets_test_some_stuff, taggedFileSource);
 %include "lets_test_some_stuff/taggedHeader.h"
 GR_SWIG_BLOCK_MAGIC2(lets_test_some_stuff, taggedHeader);
+%include "lets_test_some_stuff/taggedHeaderParser.h"
+GR_SWIG_BLOCK_MAGIC2(lets_test_some_stuff, taggedHeaderParser);
 %include "lets_test_some_stuff/taggedAccessCode.h"
 GR_SWIG_BLOCK_MAGIC2(lets_test_some_stuff, taggedAccessCode);
 

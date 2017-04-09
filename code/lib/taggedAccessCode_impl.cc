@@ -26,6 +26,7 @@
 #include "taggedAccessCode_impl.h"
 
 #define accessCode "\xB7\x97\x12\xF9\xAF\x2D\xF9\xAF\x12"
+#define codeLength 8 //bytes
 
 namespace gr {
   namespace lets_test_some_stuff {
@@ -49,7 +50,7 @@ namespace gr {
     int
     taggedAccessCode_impl::calculate_output_stream_length(const gr_vector_int &ninput_items)
     {
-      return ninput_items[0] + 8;
+      return ninput_items[0] + codeLength;
     }
 
     
@@ -64,10 +65,10 @@ namespace gr {
       char *out = (char *) output_items[0];
       long packet_length = ninput_items[0];
       //append access code
-      std::memcpy(out,accessCode,8);
+      std::memcpy(out,accessCode,codeLength);
       
       //fill the packet after the header
-      std::memcpy(out+8,in,packet_length); 
+      std::memcpy(out+codeLength,in,packet_length); 
 
       /*
       Rearange the tags
@@ -76,11 +77,14 @@ namespace gr {
       get_tags_in_range(tags, 0, nitems_read(0), nitems_read(0) + packet_length);
       for (size_t i = 0; i < tags.size(); i++) {
         tags[i].offset -= nitems_read(0);
+	if (tags[i].offset > (unsigned int) (ninput_items[0] + codeLength)) {
+          tags[i].offset = ninput_items[0] - codeLength - 1;
+	}
         add_item_tag(0, nitems_written(0) + tags[i].offset,tags[i].key,tags[i].value);
       }
       
       // Tell runtime system how many output items we produced.
-      return packet_length + 8;
+      return packet_length + codeLength;
     }
 
   } /* namespace lets_test_some_stuff */

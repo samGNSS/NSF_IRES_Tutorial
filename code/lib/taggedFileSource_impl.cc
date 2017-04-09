@@ -50,7 +50,7 @@
 #define	OUR_O_LARGEFILE 0
 #endif
 
-#define numFlushBuffs 2
+#define numFlushBuffs 4
 
 namespace gr {
   namespace lets_test_some_stuff {

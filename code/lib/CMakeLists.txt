@@ -27,6 +27,7 @@ link_directories(${Boost_LIBRARY_DIRS})
 list(APPEND lets_test_some_stuff_sources
     taggedFileSource_impl.cc
     taggedHeader_impl.cc
+    taggedHeaderParser_impl.cc
     taggedAccessCode_impl.cc
     taggedPacketGate_impl.cc )
 
