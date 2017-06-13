@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="taggedAccessCode_8h" local="no">taggedAccessCode.h</includedby>
+    <includedby refid="taggedFileSource_8h" local="no">taggedFileSource.h</includedby>
+    <includedby refid="taggedHeader_8h" local="no">taggedHeader.h</includedby>
+    <includedby refid="taggedHeaderParser_8h" local="no">taggedHeaderParser.h</includedby>
+    <includedby refid="taggedPacketGate_8h" local="no">taggedPacketGate.h</includedby>
+    <incdepgraph>
+      <node id="0">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="11">
+        <label>taggedPacketGate.h</label>
+        <link refid="taggedPacketGate_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>taggedAccessCode.h</label>
+        <link refid="taggedAccessCode_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>taggedHeader.h</label>
+        <link refid="taggedHeader_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>taggedPacketGate_impl.h</label>
+        <link refid="taggedPacketGate__impl_8h"/>
+      </node>
+      <node id="6">
+        <label>taggedFileSource_impl.h</label>
+        <link refid="taggedFileSource__impl_8h"/>
+      </node>
+      <node id="9">
+        <label>taggedHeaderParser.h</label>
+        <link refid="taggedHeaderParser_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>taggedFileSource.h</label>
+        <link refid="taggedFileSource_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>taggedHeader_impl.h</label>
+        <link refid="taggedHeader__impl_8h"/>
+      </node>
+      <node id="10">
+        <label>taggedHeaderParser_impl.h</label>
+        <link refid="taggedHeaderParser__impl_8h"/>
+      </node>
+      <node id="4">
+        <label>taggedAccessCode_impl.h</label>
+        <link refid="taggedAccessCode__impl_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1acf50c939eb9b0a25d56486080e0d4769" prot="public" static="no">
+        <name>LETS_TEST_SOME_STUFF_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/api.h" line="30" column="12" bodyfile="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/api.h"/>
+  </compounddef>
+</doxygen>

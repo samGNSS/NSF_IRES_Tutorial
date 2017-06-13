@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1lets__test__some__stuff" kind="namespace" language="C++">
+    <compoundname>gr::lets_test_some_stuff</compoundname>
+    <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode" prot="public">gr::lets_test_some_stuff::taggedAccessCode</innerclass>
+    <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode__impl" prot="public">gr::lets_test_some_stuff::taggedAccessCode_impl</innerclass>
+    <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource" prot="public">gr::lets_test_some_stuff::taggedFileSource</innerclass>
+    <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedFileSource__impl" prot="public">gr::lets_test_some_stuff::taggedFileSource_impl</innerclass>
+    <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader" prot="public">gr::lets_test_some_stuff::taggedHeader</innerclass>
+    <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader__impl" prot="public">gr::lets_test_some_stuff::taggedHeader_impl</innerclass>
+    <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser" prot="public">gr::lets_test_some_stuff::taggedHeaderParser</innerclass>
+    <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser__impl" prot="public">gr::lets_test_some_stuff::taggedHeaderParser_impl</innerclass>
+    <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedPacketGate" prot="public">gr::lets_test_some_stuff::taggedPacketGate</innerclass>
+    <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedPacketGate__impl" prot="public">gr::lets_test_some_stuff::taggedPacketGate_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedAccessCode.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

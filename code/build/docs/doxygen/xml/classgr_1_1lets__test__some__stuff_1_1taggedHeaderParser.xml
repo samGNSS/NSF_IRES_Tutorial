@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser" kind="class" language="C++" prot="public">
+    <compoundname>gr::lets_test_some_stuff::taggedHeaderParser</compoundname>
+    <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser__impl" prot="public" virt="non-virtual">gr::lets_test_some_stuff::taggedHeaderParser_impl</derivedcompoundref>
+    <includes refid="taggedHeaderParser_8h" local="no">taggedHeaderParser.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser_1a41ba9917e77d7a87d234874e2b82ff8d" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser" kindref="compound">taggedHeaderParser</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;taggedHeaderParser&gt; gr::lets_test_some_stuff::taggedHeaderParser::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h" line="39" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser_1a5a66b488a0a1ca8342a53f6816e3d1f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser_1a41ba9917e77d7a87d234874e2b82ff8d" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::lets_test_some_stuff::taggedHeaderParser::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser" kindref="compound">lets_test_some_stuff::taggedHeaderParser</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Appends a header to a stream of data </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h" line="46" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="34">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="35">
+        <label>gr::lets_test_some_stuff::taggedHeaderParser_impl</label>
+        <link refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser__impl"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>gr::lets_test_some_stuff::taggedHeaderParser</label>
+        <link refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="37">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="36">
+        <label>gr::lets_test_some_stuff::taggedHeaderParser</label>
+        <link refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h" line="37" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h" bodystart="36" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser_1a5a66b488a0a1ca8342a53f6816e3d1f8" prot="public" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedHeaderParser</scope><name>make</name></member>
+      <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser_1a41ba9917e77d7a87d234874e2b82ff8d" prot="public" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedHeaderParser</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

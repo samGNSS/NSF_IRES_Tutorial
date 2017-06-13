@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode" kind="class" language="C++" prot="public">
+    <compoundname>gr::lets_test_some_stuff::taggedAccessCode</compoundname>
+    <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
+    <includes refid="taggedAccessCode_8h" local="no">taggedAccessCode.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode_1af44434186069fdc12689890bb680af69" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode" kindref="compound">taggedAccessCode</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;taggedAccessCode&gt; gr::lets_test_some_stuff::taggedAccessCode::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedAccessCode.h" line="39" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedAccessCode.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode_1a02fde77d290d301d79f77e1201daecdc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode_1af44434186069fdc12689890bb680af69" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::lets_test_some_stuff::taggedAccessCode::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode" kindref="compound">lets_test_some_stuff::taggedAccessCode</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode" kindref="compound">lets_test_some_stuff::taggedAccessCode</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode_1a02fde77d290d301d79f77e1201daecdc" kindref="member">lets_test_some_stuff::taggedAccessCode::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedAccessCode.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>gr::lets_test_some_stuff::taggedAccessCode</label>
+        <link refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::lets_test_some_stuff::taggedAccessCode</label>
+        <link refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedAccessCode.h" line="37" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedAccessCode.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode_1a02fde77d290d301d79f77e1201daecdc" prot="public" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedAccessCode</scope><name>make</name></member>
+      <member refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode_1af44434186069fdc12689890bb680af69" prot="public" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedAccessCode</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

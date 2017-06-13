@@ -61,23 +61,21 @@ namespace gr {
     {
       const char *in = (const char *) input_items[0];
       char *out = (char *) output_items[0];
-      //completly forgot why this works...
       /*
        * Header structure:
        *  - packet length, stored as two bytes, repeated twice
        *  - packet number, stored as one byte, gives in indication on whether or not we dropped a packet
        *  - packet type, stored as one byte, tells the rx what kind of data we received
        * 	- current choices are:
-       * 		0x00 -> pad buffer, drop on the floor
-       *                0x01 -> data buffer, strip the header and pass on
+       * 		0x00 -> pad buffer
+       *                0x01 -> data buffer
        */
       d_msgType = getMsgType(ninput_items,input_items);
-      int payLoadLen = ninput_items[0] + 2;
-      char hdrPktLen[] = {0xFF&(payLoadLen>>8),0xFFFF&payLoadLen,0xFF&(payLoadLen>>8),0xFFFF&payLoadLen,0xFF&d_packetNumber,0xFF&d_msgType}; //6 bytes
-//       uint8_t hdrPktNumMsgType[] = {0xFF&d_packetNumber,0xFF&d_msgType}; //2 bytes 
+      int payLoadLen = ninput_items[0] + 2; //adjust packet length by 2 for the packet length and message type
+      char header[] = {0xFF&(payLoadLen>>8),0xFFFF&payLoadLen,0xFF&(payLoadLen>>8),0xFFFF&payLoadLen,0xFF&d_packetNumber,0xFF&d_msgType}; //6 bytes
            
       //fill output buffer
-      std::memcpy(out,hdrPktLen,headerLength); //put header at the top
+      std::memcpy(out,header,headerLength); //put header at the top
       std::memcpy(out+headerLength,in,ninput_items[0]); //fill the packet after the header
       d_packetNumber++;
       /*

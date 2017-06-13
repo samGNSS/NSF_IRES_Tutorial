@@ -60,7 +60,7 @@ namespace gr {
     {
       const char *in = (const char *) input_items[0];
       char *out = (char *) output_items[0];
-      uint8_t header[] = {0,0};
+      uint8_t header[] = {0,0}; //two bytes for the header
       
       //parse header
       std::memcpy(header,in,headerSize);
@@ -73,6 +73,17 @@ namespace gr {
       
       //wrap packet counter
       d_prevPacketNumber %= 256;
+      
+      /*
+       * Header structure:
+       *  - packet length, stored as two bytes, repeated twice
+       *  - packet number, stored as one byte, gives in indication on whether or not we dropped a packet
+       *  - packet type, stored as one byte, tells the rx what kind of data we received
+       * 	- current choices are:
+       * 		0x00 -> pad buffer, drop on the floor
+       *                0x01 -> data buffer, strip the header and pass on
+       */
+      
       
       switch(header[1]){
 	case 0:{
