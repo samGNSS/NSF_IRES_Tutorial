@@ -84,6 +84,7 @@ swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/
 swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/gr_swig_block_magic.i
 swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/hier_block2.i
 swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/runtime_swig_doc.i
+swig/lets_test_some_stuff_swig_swig_2d0df.cpp: swig/lets_test_some_stuff_swig_doc.i
 swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/feval.i
 swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/sync_decimator.i
 swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/gr_logger.i
@@ -91,14 +92,23 @@ swig/lets_test_some_stuff_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/
 swig/lets_test_some_stuff_swig_swig_2d0df.cpp: swig/lets_test_some_stuff_swig.tag
 	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig && /usr/bin/cmake -E copy /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff_swig_swig_2d0df.cpp.in /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff_swig_swig_2d0df.cpp
 
+swig/lets_test_some_stuff_swig_doc.i: swig/lets_test_some_stuff_swig_doc_swig_docs/xml/index.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating python docstrings for lets_test_some_stuff_swig_doc"
+	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/docs/doxygen && /usr/bin/python2 -B /home/sam/git_repos/NSF_IRES_Tutorial/code/docs/doxygen/swig_doc.py /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff_swig_doc_swig_docs/xml /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff_swig_doc.i
+
 swig/lets_test_some_stuff_swig.tag: swig/_lets_test_some_stuff_swig_swig_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating lets_test_some_stuff_swig.tag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating lets_test_some_stuff_swig.tag"
 	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig && ./_lets_test_some_stuff_swig_swig_tag
 	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig && /usr/bin/cmake -E touch /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff_swig.tag
 
+swig/lets_test_some_stuff_swig_doc_swig_docs/xml/index.xml: swig/_lets_test_some_stuff_swig_doc_tag
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating doxygen xml for lets_test_some_stuff_swig_doc docs"
+	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig && ./_lets_test_some_stuff_swig_doc_tag
+	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig && /usr/bin/doxygen /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff_swig_doc_swig_docs/Doxyfile
+
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o: swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/flags.make
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o: swig/lets_test_some_stuff_swig_swig_2d0df.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o"
 	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o -c /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff_swig_swig_2d0df.cpp
 
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.i: cmake_force
@@ -130,7 +140,7 @@ lets_test_some_stuff_swig_swig_2d0df_EXTERNAL_OBJECTS =
 swig/lets_test_some_stuff_swig_swig_2d0df: swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o
 swig/lets_test_some_stuff_swig_swig_2d0df: swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/build.make
 swig/lets_test_some_stuff_swig_swig_2d0df: swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lets_test_some_stuff_swig_swig_2d0df"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lets_test_some_stuff_swig_swig_2d0df"
 	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Swig source"
 	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig && /usr/bin/cmake -E make_directory /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig
@@ -150,7 +160,9 @@ swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/clean:
 .PHONY : swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/clean
 
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/depend: swig/lets_test_some_stuff_swig_swig_2d0df.cpp
+swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/depend: swig/lets_test_some_stuff_swig_doc.i
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/depend: swig/lets_test_some_stuff_swig.tag
+swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/depend: swig/lets_test_some_stuff_swig_doc_swig_docs/xml/index.xml
 	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/git_repos/NSF_IRES_Tutorial/code /home/sam/git_repos/NSF_IRES_Tutorial/code/swig /home/sam/git_repos/NSF_IRES_Tutorial/code/build /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/depend
 

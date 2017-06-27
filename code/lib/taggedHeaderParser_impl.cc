@@ -66,13 +66,13 @@ namespace gr {
       std::memcpy(header,in,headerSize);
       
       //check for dropped packets
-      if(d_prevPacketNumber++ != header[0]){
-	printf("WARNING: Packet Loss Detected\nExpected packet number: %d got %d\n",d_prevPacketNumber,header[0]);
-	d_prevPacketNumber = header[0];
+      if(++d_prevPacketNumber != header[0]){
+        printf("WARNING: Packet Loss Detected\nExpected packet number: %d got %d\n",d_prevPacketNumber,header[0]);
+        d_prevPacketNumber = header[0];
       }
       
-      //wrap packet counter
-      d_prevPacketNumber %= 256;
+//       //wrap packet counter
+//       d_prevPacketNumber %= 256;
       
       /*
        * Header structure:
@@ -86,22 +86,22 @@ namespace gr {
       
       
       switch(header[1]){
-	case 0:{
-	  //got a pad buffer, drop it on the floor
-	  return 0;
-	}
-	case 1:{
-	  //data packet
-	  break;
-	}
-	default:{
-	  printf("Bad Packet\n");
-	  return 0;
-	}
+        case 0:{
+            //got a pad buffer, drop it on the floor
+            return 0;
+        }
+        case 1:{
+            //data packet
+            break;
+        }
+        default:{
+            printf("Bad Packet\n");
+            return 0;
+        }
       }
       
       //fill output buffer
-       std::memcpy(out,in+headerSize,ninput_items[0]-headerSize); //fill the packet after the header
+       std::memcpy(out,in+headerSize,noutput_items); //fill the packet after the header
 
       /*
       Rearange the tags
@@ -110,14 +110,14 @@ namespace gr {
       get_tags_in_range(tags, 0, nitems_read(0), nitems_read(0) + ninput_items[0]);
       for (size_t i = 0; i < tags.size(); ++i){
         tags[i].offset -= nitems_read(0);
-	if (tags[i].offset > (unsigned int) (ninput_items[0])) {
-          tags[i].offset = ninput_items[0] - 1;
-	}
+        if (tags[i].offset > (unsigned int) (ninput_items[0])) {
+            tags[i].offset = ninput_items[0] - 1;
+        }
         add_item_tag(0, nitems_written(0) + tags[i].offset,tags[i].key,tags[i].value);
       }
       
       // Tell runtime system how many output items we produced.
-      return ninput_items[0] - headerSize;
+      return noutput_items;
     }
 
   } /* namespace lets_test_some_stuff */

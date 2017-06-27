@@ -65,10 +65,10 @@ namespace gr {
       char *out = (char *) output_items[0];
       long packet_length = ninput_items[0];
       //append access code
-      std::memcpy(out,accessCode,codeLength);
+      std::memmove(out,accessCode,codeLength);
       
       //fill the packet after the header
-      std::memcpy(out+codeLength,in,packet_length); 
+      std::memmove(out+codeLength,in,packet_length); 
 
       /*
       Rearange the tags

@@ -75,8 +75,8 @@ namespace gr {
       char header[] = {0xFF&(payLoadLen>>8),0xFFFF&payLoadLen,0xFF&(payLoadLen>>8),0xFFFF&payLoadLen,0xFF&d_packetNumber,0xFF&d_msgType}; //6 bytes
            
       //fill output buffer
-      std::memcpy(out,header,headerLength); //put header at the top
-      std::memcpy(out+headerLength,in,ninput_items[0]); //fill the packet after the header
+      std::memmove(out,header,headerLength); //put header at the top
+      std::memmove(out+headerLength,in,ninput_items[0]); //fill the packet after the header
       d_packetNumber++;
       /*
       Rearange the tags
