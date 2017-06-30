@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/git_repos/NSF_IRES_Tutorial/code
+CMAKE_SOURCE_DIR = /home/sam/git_repos/NSF_IRES_TUTORIAL/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/git_repos/NSF_IRES_Tutorial/code/build
+CMAKE_BINARY_DIR = /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/CMakeFiles/progress.marks
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles 0
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/CMakeFiles /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/swig/CMakeFiles/progress.marks
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/clean
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/preinstall
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/preinstall
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/rule:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/rule
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/rule
 .PHONY : swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,27 @@ lets_test_some_stuff_swig_swig_2d0df: swig/CMakeFiles/lets_test_some_stuff_swig_
 
 # fast build rule for target.
 lets_test_some_stuff_swig_swig_2d0df/fast:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/build.make swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/build
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/build.make swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/build
 .PHONY : lets_test_some_stuff_swig_swig_2d0df/fast
 
 # Convenience name for target.
+swig/CMakeFiles/pygen_swig_baeca.dir/rule:
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/pygen_swig_baeca.dir/rule
+.PHONY : swig/CMakeFiles/pygen_swig_baeca.dir/rule
+
+# Convenience name for target.
+pygen_swig_baeca: swig/CMakeFiles/pygen_swig_baeca.dir/rule
+
+.PHONY : pygen_swig_baeca
+
+# fast build rule for target.
+pygen_swig_baeca/fast:
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/pygen_swig_baeca.dir/build.make swig/CMakeFiles/pygen_swig_baeca.dir/build
+.PHONY : pygen_swig_baeca/fast
+
+# Convenience name for target.
 swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/rule:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/rule
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/rule
 .PHONY : swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/rule
 
 # Convenience name for target.
@@ -192,12 +207,12 @@ _lets_test_some_stuff_swig_swig_tag: swig/CMakeFiles/_lets_test_some_stuff_swig_
 
 # fast build rule for target.
 _lets_test_some_stuff_swig_swig_tag/fast:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/build
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/build
 .PHONY : _lets_test_some_stuff_swig_swig_tag/fast
 
 # Convenience name for target.
 swig/CMakeFiles/_lets_test_some_stuff_swig.dir/rule:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_lets_test_some_stuff_swig.dir/rule
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_lets_test_some_stuff_swig.dir/rule
 .PHONY : swig/CMakeFiles/_lets_test_some_stuff_swig.dir/rule
 
 # Convenience name for target.
@@ -207,12 +222,12 @@ _lets_test_some_stuff_swig: swig/CMakeFiles/_lets_test_some_stuff_swig.dir/rule
 
 # fast build rule for target.
 _lets_test_some_stuff_swig/fast:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig.dir/build
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig.dir/build
 .PHONY : _lets_test_some_stuff_swig/fast
 
 # Convenience name for target.
 swig/CMakeFiles/lets_test_some_stuff_swig_swig_doc.dir/rule:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/lets_test_some_stuff_swig_swig_doc.dir/rule
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/lets_test_some_stuff_swig_swig_doc.dir/rule
 .PHONY : swig/CMakeFiles/lets_test_some_stuff_swig_swig_doc.dir/rule
 
 # Convenience name for target.
@@ -222,12 +237,12 @@ lets_test_some_stuff_swig_swig_doc: swig/CMakeFiles/lets_test_some_stuff_swig_sw
 
 # fast build rule for target.
 lets_test_some_stuff_swig_swig_doc/fast:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/lets_test_some_stuff_swig_swig_doc.dir/build.make swig/CMakeFiles/lets_test_some_stuff_swig_swig_doc.dir/build
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/lets_test_some_stuff_swig_swig_doc.dir/build.make swig/CMakeFiles/lets_test_some_stuff_swig_swig_doc.dir/build
 .PHONY : lets_test_some_stuff_swig_swig_doc/fast
 
 # Convenience name for target.
 swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/rule:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/rule
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/rule
 .PHONY : swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/rule
 
 # Convenience name for target.
@@ -237,23 +252,8 @@ _lets_test_some_stuff_swig_doc_tag: swig/CMakeFiles/_lets_test_some_stuff_swig_d
 
 # fast build rule for target.
 _lets_test_some_stuff_swig_doc_tag/fast:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/build
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/build
 .PHONY : _lets_test_some_stuff_swig_doc_tag/fast
-
-# Convenience name for target.
-swig/CMakeFiles/pygen_swig_4aad5.dir/rule:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/pygen_swig_4aad5.dir/rule
-.PHONY : swig/CMakeFiles/pygen_swig_4aad5.dir/rule
-
-# Convenience name for target.
-pygen_swig_4aad5: swig/CMakeFiles/pygen_swig_4aad5.dir/rule
-
-.PHONY : pygen_swig_4aad5
-
-# fast build rule for target.
-pygen_swig_4aad5/fast:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/pygen_swig_4aad5.dir/build.make swig/CMakeFiles/pygen_swig_4aad5.dir/build
-.PHONY : pygen_swig_4aad5/fast
 
 _lets_test_some_stuff_swig_doc_tag.o: _lets_test_some_stuff_swig_doc_tag.cpp.o
 
@@ -261,7 +261,7 @@ _lets_test_some_stuff_swig_doc_tag.o: _lets_test_some_stuff_swig_doc_tag.cpp.o
 
 # target to build an object file
 _lets_test_some_stuff_swig_doc_tag.cpp.o:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/_lets_test_some_stuff_swig_doc_tag.cpp.o
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/_lets_test_some_stuff_swig_doc_tag.cpp.o
 .PHONY : _lets_test_some_stuff_swig_doc_tag.cpp.o
 
 _lets_test_some_stuff_swig_doc_tag.i: _lets_test_some_stuff_swig_doc_tag.cpp.i
@@ -270,7 +270,7 @@ _lets_test_some_stuff_swig_doc_tag.i: _lets_test_some_stuff_swig_doc_tag.cpp.i
 
 # target to preprocess a source file
 _lets_test_some_stuff_swig_doc_tag.cpp.i:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/_lets_test_some_stuff_swig_doc_tag.cpp.i
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/_lets_test_some_stuff_swig_doc_tag.cpp.i
 .PHONY : _lets_test_some_stuff_swig_doc_tag.cpp.i
 
 _lets_test_some_stuff_swig_doc_tag.s: _lets_test_some_stuff_swig_doc_tag.cpp.s
@@ -279,7 +279,7 @@ _lets_test_some_stuff_swig_doc_tag.s: _lets_test_some_stuff_swig_doc_tag.cpp.s
 
 # target to generate assembly for a file
 _lets_test_some_stuff_swig_doc_tag.cpp.s:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/_lets_test_some_stuff_swig_doc_tag.cpp.s
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/_lets_test_some_stuff_swig_doc_tag.cpp.s
 .PHONY : _lets_test_some_stuff_swig_doc_tag.cpp.s
 
 _lets_test_some_stuff_swig_swig_tag.o: _lets_test_some_stuff_swig_swig_tag.cpp.o
@@ -288,7 +288,7 @@ _lets_test_some_stuff_swig_swig_tag.o: _lets_test_some_stuff_swig_swig_tag.cpp.o
 
 # target to build an object file
 _lets_test_some_stuff_swig_swig_tag.cpp.o:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.o
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.o
 .PHONY : _lets_test_some_stuff_swig_swig_tag.cpp.o
 
 _lets_test_some_stuff_swig_swig_tag.i: _lets_test_some_stuff_swig_swig_tag.cpp.i
@@ -297,7 +297,7 @@ _lets_test_some_stuff_swig_swig_tag.i: _lets_test_some_stuff_swig_swig_tag.cpp.i
 
 # target to preprocess a source file
 _lets_test_some_stuff_swig_swig_tag.cpp.i:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.i
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.i
 .PHONY : _lets_test_some_stuff_swig_swig_tag.cpp.i
 
 _lets_test_some_stuff_swig_swig_tag.s: _lets_test_some_stuff_swig_swig_tag.cpp.s
@@ -306,7 +306,7 @@ _lets_test_some_stuff_swig_swig_tag.s: _lets_test_some_stuff_swig_swig_tag.cpp.s
 
 # target to generate assembly for a file
 _lets_test_some_stuff_swig_swig_tag.cpp.s:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.s
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig_swig_tag.dir/_lets_test_some_stuff_swig_swig_tag.cpp.s
 .PHONY : _lets_test_some_stuff_swig_swig_tag.cpp.s
 
 lets_test_some_stuff_swigPYTHON_wrap.o: lets_test_some_stuff_swigPYTHON_wrap.cxx.o
@@ -315,7 +315,7 @@ lets_test_some_stuff_swigPYTHON_wrap.o: lets_test_some_stuff_swigPYTHON_wrap.cxx
 
 # target to build an object file
 lets_test_some_stuff_swigPYTHON_wrap.cxx.o:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig.dir/lets_test_some_stuff_swigPYTHON_wrap.cxx.o
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig.dir/lets_test_some_stuff_swigPYTHON_wrap.cxx.o
 .PHONY : lets_test_some_stuff_swigPYTHON_wrap.cxx.o
 
 lets_test_some_stuff_swigPYTHON_wrap.i: lets_test_some_stuff_swigPYTHON_wrap.cxx.i
@@ -324,7 +324,7 @@ lets_test_some_stuff_swigPYTHON_wrap.i: lets_test_some_stuff_swigPYTHON_wrap.cxx
 
 # target to preprocess a source file
 lets_test_some_stuff_swigPYTHON_wrap.cxx.i:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig.dir/lets_test_some_stuff_swigPYTHON_wrap.cxx.i
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig.dir/lets_test_some_stuff_swigPYTHON_wrap.cxx.i
 .PHONY : lets_test_some_stuff_swigPYTHON_wrap.cxx.i
 
 lets_test_some_stuff_swigPYTHON_wrap.s: lets_test_some_stuff_swigPYTHON_wrap.cxx.s
@@ -333,7 +333,7 @@ lets_test_some_stuff_swigPYTHON_wrap.s: lets_test_some_stuff_swigPYTHON_wrap.cxx
 
 # target to generate assembly for a file
 lets_test_some_stuff_swigPYTHON_wrap.cxx.s:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig.dir/lets_test_some_stuff_swigPYTHON_wrap.cxx.s
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/_lets_test_some_stuff_swig.dir/build.make swig/CMakeFiles/_lets_test_some_stuff_swig.dir/lets_test_some_stuff_swigPYTHON_wrap.cxx.s
 .PHONY : lets_test_some_stuff_swigPYTHON_wrap.cxx.s
 
 lets_test_some_stuff_swig_swig_2d0df.o: lets_test_some_stuff_swig_swig_2d0df.cpp.o
@@ -342,7 +342,7 @@ lets_test_some_stuff_swig_swig_2d0df.o: lets_test_some_stuff_swig_swig_2d0df.cpp
 
 # target to build an object file
 lets_test_some_stuff_swig_swig_2d0df.cpp.o:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/build.make swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/build.make swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.o
 .PHONY : lets_test_some_stuff_swig_swig_2d0df.cpp.o
 
 lets_test_some_stuff_swig_swig_2d0df.i: lets_test_some_stuff_swig_swig_2d0df.cpp.i
@@ -351,7 +351,7 @@ lets_test_some_stuff_swig_swig_2d0df.i: lets_test_some_stuff_swig_swig_2d0df.cpp
 
 # target to preprocess a source file
 lets_test_some_stuff_swig_swig_2d0df.cpp.i:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/build.make swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.i
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/build.make swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.i
 .PHONY : lets_test_some_stuff_swig_swig_2d0df.cpp.i
 
 lets_test_some_stuff_swig_swig_2d0df.s: lets_test_some_stuff_swig_swig_2d0df.cpp.s
@@ -360,7 +360,7 @@ lets_test_some_stuff_swig_swig_2d0df.s: lets_test_some_stuff_swig_swig_2d0df.cpp
 
 # target to generate assembly for a file
 lets_test_some_stuff_swig_swig_2d0df.cpp.s:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/build.make swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.s
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/build.make swig/CMakeFiles/lets_test_some_stuff_swig_swig_2d0df.dir/lets_test_some_stuff_swig_swig_2d0df.cpp.s
 .PHONY : lets_test_some_stuff_swig_swig_2d0df.cpp.s
 
 # Help Target
@@ -372,12 +372,12 @@ help:
 	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... lets_test_some_stuff_swig_swig_2d0df"
+	@echo "... pygen_swig_baeca"
 	@echo "... _lets_test_some_stuff_swig_swig_tag"
 	@echo "... _lets_test_some_stuff_swig"
 	@echo "... test"
 	@echo "... lets_test_some_stuff_swig_swig_doc"
 	@echo "... _lets_test_some_stuff_swig_doc_tag"
-	@echo "... pygen_swig_4aad5"
 	@echo "... list_install_components"
 	@echo "... install/strip"
 	@echo "... install/local"
@@ -405,6 +405,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

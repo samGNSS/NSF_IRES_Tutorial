@@ -6,14 +6,14 @@
     <includes local="no">gnuradio/sync_block.h</includes>
     <includedby refid="taggedFileSource__impl_8h" local="no">taggedFileSource_impl.h</includedby>
     <incdepgraph>
+      <node id="32">
+        <label>gnuradio/sync_block.h</label>
+      </node>
       <node id="30">
         <label>lets_test_some_stuff/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="31" relation="include">
         </childnode>
-      </node>
-      <node id="32">
-        <label>gnuradio/sync_block.h</label>
       </node>
       <node id="31">
         <label>gnuradio/attributes.h</label>
@@ -46,6 +46,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedFileSource.h"/>
+    <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedFileSource.h"/>
   </compounddef>
 </doxygen>

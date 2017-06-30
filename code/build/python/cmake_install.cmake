@@ -1,4 +1,4 @@
-# Install script for directory: /home/sam/git_repos/NSF_IRES_Tutorial/code/python
+# Install script for directory: /home/sam/git_repos/NSF_IRES_TUTORIAL/code/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,13 +33,13 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/lets_test_some_stuff" TYPE FILE FILES "/home/sam/git_repos/NSF_IRES_Tutorial/code/python/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/lets_test_some_stuff" TYPE FILE FILES "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/python/__init__.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/lets_test_some_stuff" TYPE FILE FILES
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/build/python/__init__.pyc"
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/build/python/__init__.pyo"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/python/__init__.pyc"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/python/__init__.pyo"
     )
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/sam/git_repos/NSF_IRES_Tutorial/code/docs/doxygen
+# Install script for directory: /home/sam/git_repos/NSF_IRES_TUTORIAL/code/docs/doxygen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/gr-lets_test_some_stuff" TYPE DIRECTORY FILES
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/build/docs/doxygen/xml"
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/build/docs/doxygen/html"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/docs/doxygen/xml"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/docs/doxygen/html"
     )
 endif()
 

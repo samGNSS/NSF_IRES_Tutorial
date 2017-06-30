@@ -66,13 +66,13 @@ namespace gr {
       std::memcpy(header,in,headerSize);
       
       //check for dropped packets
-      if(++d_prevPacketNumber != header[0]){
+      if(d_prevPacketNumber++ != header[0]){
         printf("WARNING: Packet Loss Detected\nExpected packet number: %d got %d\n",d_prevPacketNumber,header[0]);
         d_prevPacketNumber = header[0];
       }
       
-//       //wrap packet counter
-//       d_prevPacketNumber %= 256;
+       //wrap packet counter
+       d_prevPacketNumber %= 256;
       
       /*
        * Header structure:
@@ -83,7 +83,9 @@ namespace gr {
        * 		0x00 -> pad buffer, drop on the floor
        *                0x01 -> data buffer, strip the header and pass on
        */
-      
+#ifdef debug
+	printf("packet type: %x\n",header[1]);
+#endif      
       
       switch(header[1]){
         case 0:{
@@ -101,7 +103,7 @@ namespace gr {
       }
       
       //fill output buffer
-       std::memcpy(out,in+headerSize,noutput_items); //fill the packet after the header
+       std::memcpy(out,in+headerSize,ninput_items[0] - headerSize); //fill the packet after the header
 
       /*
       Rearange the tags
@@ -117,7 +119,7 @@ namespace gr {
       }
       
       // Tell runtime system how many output items we produced.
-      return noutput_items;
+      return ninput_items[0] - headerSize;
     }
 
   } /* namespace lets_test_some_stuff */

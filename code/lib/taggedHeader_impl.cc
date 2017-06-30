@@ -105,9 +105,9 @@ namespace gr {
     }
     
     if(zeroCount>=numZeros){
-      return 0x0000;
+      return 0x00;
     }else{
-      return 0x0001;
+      return 0x01;
     }
   }
 

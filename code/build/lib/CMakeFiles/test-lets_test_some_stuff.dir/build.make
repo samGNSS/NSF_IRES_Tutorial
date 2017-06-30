@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/git_repos/NSF_IRES_Tutorial/code
+CMAKE_SOURCE_DIR = /home/sam/git_repos/NSF_IRES_TUTORIAL/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/git_repos/NSF_IRES_Tutorial/code/build
+CMAKE_BINARY_DIR = /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/test-lets_test_some_stuff.dir/depend.make
@@ -59,16 +59,16 @@ include lib/CMakeFiles/test-lets_test_some_stuff.dir/flags.make
 
 lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.o: lib/CMakeFiles/test-lets_test_some_stuff.dir/flags.make
 lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.o: ../lib/test_lets_test_some_stuff.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.o"
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.o -c /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/test_lets_test_some_stuff.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.o"
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.o -c /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/test_lets_test_some_stuff.cc
 
 lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.i"
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/test_lets_test_some_stuff.cc > CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.i
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/test_lets_test_some_stuff.cc > CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.i
 
 lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.s"
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/test_lets_test_some_stuff.cc -o CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.s
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/test_lets_test_some_stuff.cc -o CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.s
 
 lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.o.requires:
 
@@ -83,16 +83,16 @@ lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.o.prov
 
 lib/CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.o: lib/CMakeFiles/test-lets_test_some_stuff.dir/flags.make
 lib/CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.o: ../lib/qa_lets_test_some_stuff.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.o"
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.o -c /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/qa_lets_test_some_stuff.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.o"
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.o -c /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/qa_lets_test_some_stuff.cc
 
 lib/CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.i"
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/qa_lets_test_some_stuff.cc > CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.i
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/qa_lets_test_some_stuff.cc > CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.i
 
 lib/CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.s"
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/qa_lets_test_some_stuff.cc -o CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.s
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/qa_lets_test_some_stuff.cc -o CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.s
 
 lib/CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.o.requires:
 
@@ -127,8 +127,8 @@ lib/test-lets_test_some_stuff: /usr/local/lib/libgnuradio-pmt.so
 lib/test-lets_test_some_stuff: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 lib/test-lets_test_some_stuff: /usr/lib/x86_64-linux-gnu/libboost_system.so
 lib/test-lets_test_some_stuff: lib/CMakeFiles/test-lets_test_some_stuff.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test-lets_test_some_stuff"
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-lets_test_some_stuff.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test-lets_test_some_stuff"
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-lets_test_some_stuff.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/test-lets_test_some_stuff.dir/build: lib/test-lets_test_some_stuff
@@ -141,10 +141,10 @@ lib/CMakeFiles/test-lets_test_some_stuff.dir/requires: lib/CMakeFiles/test-lets_
 .PHONY : lib/CMakeFiles/test-lets_test_some_stuff.dir/requires
 
 lib/CMakeFiles/test-lets_test_some_stuff.dir/clean:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/test-lets_test_some_stuff.dir/cmake_clean.cmake
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/test-lets_test_some_stuff.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/test-lets_test_some_stuff.dir/clean
 
 lib/CMakeFiles/test-lets_test_some_stuff.dir/depend:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/git_repos/NSF_IRES_Tutorial/code /home/sam/git_repos/NSF_IRES_Tutorial/code/lib /home/sam/git_repos/NSF_IRES_Tutorial/code/build /home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib /home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib/CMakeFiles/test-lets_test_some_stuff.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/git_repos/NSF_IRES_TUTORIAL/code /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib/CMakeFiles/test-lets_test_some_stuff.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/test-lets_test_some_stuff.dir/depend
 

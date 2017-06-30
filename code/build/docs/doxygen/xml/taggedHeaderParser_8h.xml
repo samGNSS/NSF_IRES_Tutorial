@@ -28,15 +28,15 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="59">
+        <label>taggedHeaderParser_impl.h</label>
+        <link refid="taggedHeaderParser__impl_8h"/>
+      </node>
       <node id="58">
         <label>taggedHeaderParser.h</label>
         <link refid="taggedHeaderParser.h"/>
         <childnode refid="59" relation="include">
         </childnode>
-      </node>
-      <node id="59">
-        <label>taggedHeaderParser_impl.h</label>
-        <link refid="taggedHeaderParser__impl_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser" prot="public">gr::lets_test_some_stuff::taggedHeaderParser</innerclass>
@@ -46,6 +46,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h"/>
+    <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeaderParser.h"/>
   </compounddef>
 </doxygen>

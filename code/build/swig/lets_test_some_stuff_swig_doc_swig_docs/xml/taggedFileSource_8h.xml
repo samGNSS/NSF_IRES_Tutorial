@@ -5,20 +5,20 @@
     <includes refid="api_8h" local="no">lets_test_some_stuff/api.h</includes>
     <includes local="no">gnuradio/sync_block.h</includes>
     <incdepgraph>
+      <node id="16">
+        <label>gnuradio/sync_block.h</label>
+      </node>
       <node id="14">
         <label>lets_test_some_stuff/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="16">
-        <label>gnuradio/sync_block.h</label>
-      </node>
       <node id="15">
         <label>gnuradio/attributes.h</label>
       </node>
       <node id="13">
-        <label>/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedFileSource.h</label>
+        <label>/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedFileSource.h</label>
         <link refid="taggedFileSource.h"/>
         <childnode refid="14" relation="include">
         </childnode>
@@ -86,6 +86,6 @@
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_BLOCKS_FILE_SOURCE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedFileSource.h"/>
+    <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedFileSource.h"/>
   </compounddef>
 </doxygen>

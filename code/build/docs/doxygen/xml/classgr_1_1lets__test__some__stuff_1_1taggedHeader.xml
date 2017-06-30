@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeader.h" line="39" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeader.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeader.h" line="39" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeader.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -32,7 +32,7 @@
 <para>Appends a header to a stream of data </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeader.h" line="46" column="1"/>
+        <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeader.h" line="46" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -67,7 +67,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeader.h" line="37" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeader.h" bodystart="36" bodyend="47"/>
+    <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeader.h" line="37" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeader.h" bodystart="36" bodyend="47"/>
     <listofallmembers>
       <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader_1a24603ae9a341ad948715eff82b549429" prot="public" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedHeader</scope><name>make</name></member>
       <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeader_1acede45d3b22711d8fd8e3147372b4595" prot="public" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedHeader</scope><name>sptr</name></member>

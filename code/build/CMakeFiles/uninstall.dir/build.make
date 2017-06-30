@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/git_repos/NSF_IRES_Tutorial/code
+CMAKE_SOURCE_DIR = /home/sam/git_repos/NSF_IRES_TUTORIAL/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/git_repos/NSF_IRES_Tutorial/code/build
+CMAKE_BINARY_DIR = /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/sam/git_repos/NSF_IRES_Tutorial/code/build
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/sam/git_repos/NSF_IRES_Tutorial/code/build/cmake_uninstall.cmake
+	/usr/bin/cmake -P /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/cmake_uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/git_repos/NSF_IRES_Tutorial/code /home/sam/git_repos/NSF_IRES_Tutorial/code /home/sam/git_repos/NSF_IRES_Tutorial/code/build /home/sam/git_repos/NSF_IRES_Tutorial/code/build /home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/git_repos/NSF_IRES_TUTORIAL/code /home/sam/git_repos/NSF_IRES_TUTORIAL/code /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

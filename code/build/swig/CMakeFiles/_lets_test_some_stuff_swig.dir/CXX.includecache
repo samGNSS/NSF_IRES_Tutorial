@@ -40,7 +40,7 @@ lets_test_some_stuff/api.h
 gnuradio/block.h
 -
 
-/home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff_swigPYTHON_wrap.cxx
+/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/swig/lets_test_some_stuff_swigPYTHON_wrap.cxx
 Python.h
 -
 Python.h
@@ -52,7 +52,7 @@ stdexcept
 string
 -
 gnuradio_swig_bug_workaround.h
-/home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/gnuradio_swig_bug_workaround.h
+/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/swig/gnuradio_swig_bug_workaround.h
 cstddef
 -
 stdexcept
@@ -86,15 +86,15 @@ gnuradio/high_res_timer.h
 limits.h
 -
 lets_test_some_stuff/taggedFileSource.h
-/home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff/taggedFileSource.h
+/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/swig/lets_test_some_stuff/taggedFileSource.h
 lets_test_some_stuff/taggedHeader.h
-/home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff/taggedHeader.h
+/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/swig/lets_test_some_stuff/taggedHeader.h
 lets_test_some_stuff/taggedHeaderParser.h
-/home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff/taggedHeaderParser.h
+/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/swig/lets_test_some_stuff/taggedHeaderParser.h
 lets_test_some_stuff/taggedAccessCode.h
-/home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff/taggedAccessCode.h
+/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/swig/lets_test_some_stuff/taggedAccessCode.h
 lets_test_some_stuff/taggedPacketGate.h
-/home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff/taggedPacketGate.h
+/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/swig/lets_test_some_stuff/taggedPacketGate.h
 float.h
 -
 math.h

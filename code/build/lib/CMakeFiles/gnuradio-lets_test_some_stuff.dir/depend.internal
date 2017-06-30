@@ -4,8 +4,8 @@
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.o
  ../include/lets_test_some_stuff/api.h
  ../include/lets_test_some_stuff/taggedAccessCode.h
- /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedAccessCode_impl.cc
- /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedAccessCode_impl.h
+ /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedAccessCode_impl.cc
+ /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedAccessCode_impl.h
  /usr/local/include/gnuradio/api.h
  /usr/local/include/gnuradio/attributes.h
  /usr/local/include/gnuradio/basic_block.h
@@ -39,8 +39,8 @@ lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.o
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.o
  ../include/lets_test_some_stuff/api.h
  ../include/lets_test_some_stuff/taggedFileSource.h
- /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedFileSource_impl.cc
- /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedFileSource_impl.h
+ /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedFileSource_impl.cc
+ /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedFileSource_impl.h
  /usr/local/include/gnuradio/api.h
  /usr/local/include/gnuradio/attributes.h
  /usr/local/include/gnuradio/basic_block.h
@@ -74,8 +74,8 @@ lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.o
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeaderParser_impl.cc.o
  ../include/lets_test_some_stuff/api.h
  ../include/lets_test_some_stuff/taggedHeaderParser.h
- /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedHeaderParser_impl.cc
- /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedHeaderParser_impl.h
+ /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedHeaderParser_impl.cc
+ /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedHeaderParser_impl.h
  /usr/local/include/gnuradio/api.h
  /usr/local/include/gnuradio/attributes.h
  /usr/local/include/gnuradio/basic_block.h
@@ -109,8 +109,8 @@ lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeaderParser_impl.cc.o
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.o
  ../include/lets_test_some_stuff/api.h
  ../include/lets_test_some_stuff/taggedHeader.h
- /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedHeader_impl.cc
- /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedHeader_impl.h
+ /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedHeader_impl.cc
+ /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedHeader_impl.h
  /usr/local/include/gnuradio/api.h
  /usr/local/include/gnuradio/attributes.h
  /usr/local/include/gnuradio/basic_block.h
@@ -144,8 +144,8 @@ lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.o
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.o
  ../include/lets_test_some_stuff/api.h
  ../include/lets_test_some_stuff/taggedPacketGate.h
- /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedPacketGate_impl.cc
- /home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedPacketGate_impl.h
+ /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedPacketGate_impl.cc
+ /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedPacketGate_impl.h
  /usr/local/include/gnuradio/api.h
  /usr/local/include/gnuradio/attributes.h
  /usr/local/include/gnuradio/basic_block.h

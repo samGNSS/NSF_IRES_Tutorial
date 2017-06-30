@@ -4,18 +4,18 @@
     <compoundname>taggedHeader_impl.h</compoundname>
     <includes refid="taggedHeader_8h" local="no">lets_test_some_stuff/taggedHeader.h</includes>
     <incdepgraph>
-      <node id="50">
-        <label>lets_test_some_stuff/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="51" relation="include">
-        </childnode>
-      </node>
       <node id="49">
         <label>lets_test_some_stuff/taggedHeader.h</label>
         <link refid="taggedHeader_8h"/>
         <childnode refid="50" relation="include">
         </childnode>
         <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>lets_test_some_stuff/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
       <node id="51">
@@ -38,6 +38,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedHeader_impl.h"/>
+    <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedHeader_impl.h"/>
   </compounddef>
 </doxygen>

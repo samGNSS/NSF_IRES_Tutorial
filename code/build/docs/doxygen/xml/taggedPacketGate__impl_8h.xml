@@ -4,14 +4,6 @@
     <compoundname>taggedPacketGate_impl.h</compoundname>
     <includes refid="taggedPacketGate_8h" local="no">lets_test_some_stuff/taggedPacketGate.h</includes>
     <incdepgraph>
-      <node id="73">
-        <label>lets_test_some_stuff/taggedPacketGate.h</label>
-        <link refid="taggedPacketGate_8h"/>
-        <childnode refid="74" relation="include">
-        </childnode>
-        <childnode refid="76" relation="include">
-        </childnode>
-      </node>
       <node id="74">
         <label>lets_test_some_stuff/api.h</label>
         <link refid="api_8h"/>
@@ -27,6 +19,14 @@
       <node id="75">
         <label>gnuradio/attributes.h</label>
       </node>
+      <node id="73">
+        <label>lets_test_some_stuff/taggedPacketGate.h</label>
+        <link refid="taggedPacketGate_8h"/>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+      </node>
       <node id="76">
         <label>gnuradio/block.h</label>
       </node>
@@ -38,6 +38,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedPacketGate_impl.h"/>
+    <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedPacketGate_impl.h"/>
   </compounddef>
 </doxygen>

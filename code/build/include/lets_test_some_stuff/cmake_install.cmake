@@ -1,4 +1,4 @@
-# Install script for directory: /home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff
+# Install script for directory: /home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lets_test_some_stuff" TYPE FILE FILES
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/api.h"
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedFileSource.h"
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeader.h"
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h"
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedAccessCode.h"
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedPacketGate.h"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/api.h"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedFileSource.h"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeader.h"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeaderParser.h"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedAccessCode.h"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedPacketGate.h"
     )
 endif()
 

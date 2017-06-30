@@ -1,4 +1,4 @@
-# Install script for directory: /home/sam/git_repos/NSF_IRES_Tutorial/code/docs
+# Install script for directory: /home/sam/git_repos/NSF_IRES_TUTORIAL/code/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sam/git_repos/NSF_IRES_Tutorial/code/build/docs/doxygen/cmake_install.cmake")
+  include("/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/docs/doxygen/cmake_install.cmake")
 
 endif()
 

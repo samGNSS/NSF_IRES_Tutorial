@@ -1,4 +1,4 @@
-# Install script for directory: /home/sam/git_repos/NSF_IRES_Tutorial/code/lib
+# Install script for directory: /home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-lets_test_some_stuff.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib/libgnuradio-lets_test_some_stuff.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib/libgnuradio-lets_test_some_stuff.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-lets_test_some_stuff.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-lets_test_some_stuff.so")
     file(RPATH_CHANGE

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h" line="39" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeaderParser.h" line="39" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeaderParser.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -32,7 +32,7 @@
 <para>Appends a header to a stream of data </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h" line="46" column="1"/>
+        <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeaderParser.h" line="46" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -67,7 +67,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h" line="37" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h" bodystart="36" bodyend="47"/>
+    <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeaderParser.h" line="37" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeaderParser.h" bodystart="36" bodyend="47"/>
     <listofallmembers>
       <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser_1a5a66b488a0a1ca8342a53f6816e3d1f8" prot="public" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedHeaderParser</scope><name>make</name></member>
       <member refid="classgr_1_1lets__test__some__stuff_1_1taggedHeaderParser_1a41ba9917e77d7a87d234874e2b82ff8d" prot="public" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedHeaderParser</scope><name>sptr</name></member>

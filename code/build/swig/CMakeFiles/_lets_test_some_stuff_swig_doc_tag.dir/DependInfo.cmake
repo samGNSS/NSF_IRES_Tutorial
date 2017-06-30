@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/_lets_test_some_stuff_swig_doc_tag.cpp" "/home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/_lets_test_some_stuff_swig_doc_tag.cpp.o"
+  "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/swig/_lets_test_some_stuff_swig_doc_tag.cpp" "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/swig/CMakeFiles/_lets_test_some_stuff_swig_doc_tag.dir/_lets_test_some_stuff_swig_doc_tag.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -5,18 +5,18 @@
     <includes refid="api_8h" local="no">lets_test_some_stuff/api.h</includes>
     <includes local="no">gnuradio/tagged_stream_block.h</includes>
     <incdepgraph>
-      <node id="19">
-        <label>lets_test_some_stuff/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
       <node id="18">
-        <label>/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeader.h</label>
+        <label>/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeader.h</label>
         <link refid="taggedHeader.h"/>
         <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>lets_test_some_stuff/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="20">
@@ -78,6 +78,6 @@
 <codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_LETS_TEST_SOME_STUFF_TAGGEDHEADER_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeader.h"/>
+    <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeader.h"/>
   </compounddef>
 </doxygen>

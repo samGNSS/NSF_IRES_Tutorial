@@ -3,14 +3,14 @@
   <compounddef id="api_8h" kind="file" language="C++">
     <compoundname>api.h</compoundname>
     <includes local="no">gnuradio/attributes.h</includes>
-    <includedby refid="taggedAccessCode_8h" local="no">/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedAccessCode.h</includedby>
-    <includedby refid="taggedFileSource_8h" local="no">/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedFileSource.h</includedby>
-    <includedby refid="taggedHeader_8h" local="no">/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeader.h</includedby>
-    <includedby refid="taggedHeaderParser_8h" local="no">/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h</includedby>
-    <includedby refid="taggedPacketGate_8h" local="no">/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedPacketGate.h</includedby>
+    <includedby refid="taggedAccessCode_8h" local="no">/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedAccessCode.h</includedby>
+    <includedby refid="taggedFileSource_8h" local="no">/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedFileSource.h</includedby>
+    <includedby refid="taggedHeader_8h" local="no">/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeader.h</includedby>
+    <includedby refid="taggedHeaderParser_8h" local="no">/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeaderParser.h</includedby>
+    <includedby refid="taggedPacketGate_8h" local="no">/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedPacketGate.h</includedby>
     <incdepgraph>
       <node id="0">
-        <label>/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/api.h</label>
+        <label>/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/api.h</label>
         <link refid="api.h"/>
         <childnode refid="1" relation="include">
         </childnode>
@@ -20,16 +20,12 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="7">
-        <label>/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedPacketGate.h</label>
-        <link refid="taggedPacketGate_8h"/>
-      </node>
-      <node id="3">
-        <label>/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedAccessCode.h</label>
-        <link refid="taggedAccessCode_8h"/>
+      <node id="5">
+        <label>/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeader.h</label>
+        <link refid="taggedHeader_8h"/>
       </node>
       <node id="2">
-        <label>/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/api.h</label>
+        <label>/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/api.h</label>
         <link refid="api.h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -42,17 +38,21 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeader.h</label>
-        <link refid="taggedHeader_8h"/>
-      </node>
-      <node id="6">
-        <label>/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h</label>
-        <link refid="taggedHeaderParser_8h"/>
+      <node id="7">
+        <label>/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedPacketGate.h</label>
+        <link refid="taggedPacketGate_8h"/>
       </node>
       <node id="4">
-        <label>/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedFileSource.h</label>
+        <label>/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedFileSource.h</label>
         <link refid="taggedFileSource_8h"/>
+      </node>
+      <node id="6">
+        <label>/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeaderParser.h</label>
+        <link refid="taggedHeaderParser_8h"/>
+      </node>
+      <node id="3">
+        <label>/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedAccessCode.h</label>
+        <link refid="taggedAccessCode_8h"/>
       </node>
     </invincdepgraph>
       <sectiondef kind="define">
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/api.h" line="30" column="12" bodyfile="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/api.h" bodystart="30" bodyend="-1"/>
+        <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/api.h" line="30" column="12" bodyfile="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/api.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -107,6 +107,6 @@
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_LETS_TEST_SOME_STUFF_API_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/api.h"/>
+    <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/api.h"/>
   </compounddef>
 </doxygen>

@@ -15,7 +15,7 @@
         <label>gnuradio/attributes.h</label>
       </node>
       <node id="23">
-        <label>/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h</label>
+        <label>/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeaderParser.h</label>
         <link refid="taggedHeaderParser.h"/>
         <childnode refid="24" relation="include">
         </childnode>
@@ -78,6 +78,6 @@
 <codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_LETS_TEST_SOME_STUFF_TAGGEDHEADER_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/taggedHeaderParser.h"/>
+    <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/taggedHeaderParser.h"/>
   </compounddef>
 </doxygen>

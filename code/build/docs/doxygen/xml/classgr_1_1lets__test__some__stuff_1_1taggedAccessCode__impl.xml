@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedAccessCode_impl.h" line="35" column="1"/>
+        <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedAccessCode_impl.h" line="35" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedAccessCode_impl.h" line="38" column="1"/>
+        <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedAccessCode_impl.h" line="38" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode__impl_1a475f9ec5355e6c6f24bc2a7a6d977e39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedAccessCode_impl.h" line="39" column="1"/>
+        <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedAccessCode_impl.h" line="39" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode__impl_1a1a33519cb2181971764d8bdb03f6b004" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedAccessCode_impl.h" line="42" column="1"/>
+        <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedAccessCode_impl.h" line="42" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -118,7 +118,7 @@
         <label>gr::tagged_stream_block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedAccessCode_impl.h" line="30" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/taggedAccessCode_impl.h" bodystart="29" bodyend="46"/>
+    <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedAccessCode_impl.h" line="30" column="1" bodyfile="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/taggedAccessCode_impl.h" bodystart="29" bodyend="46"/>
     <listofallmembers>
       <member refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode__impl_1a47a96d4b4fe2cfbafd3b4db96d74c3c7" prot="protected" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedAccessCode_impl</scope><name>calculate_output_stream_length</name></member>
       <member refid="classgr_1_1lets__test__some__stuff_1_1taggedAccessCode_1a02fde77d290d301d79f77e1201daecdc" prot="public" virt="non-virtual"><scope>gr::lets_test_some_stuff::taggedAccessCode_impl</scope><name>make</name></member>

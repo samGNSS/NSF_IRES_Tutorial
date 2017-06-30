@@ -8,7 +8,7 @@ swig/CMakeFiles/_lets_test_some_stuff_swig.dir/lets_test_some_stuff_swigPYTHON_w
  ../include/lets_test_some_stuff/taggedHeader.h
  ../include/lets_test_some_stuff/taggedHeaderParser.h
  ../include/lets_test_some_stuff/taggedPacketGate.h
- /home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff_swigPYTHON_wrap.cxx
+ /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/swig/lets_test_some_stuff_swigPYTHON_wrap.cxx
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h

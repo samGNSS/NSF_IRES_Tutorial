@@ -42,8 +42,8 @@
   </compound>
   <compound refid="taggedPacketGate_8h" kind="file"><name>taggedPacketGate.h</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/sam/git_repos/NSF_IRES_Tutorial/code/include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include</name>
   </compound>
-  <compound refid="dir_561465418f9005955c392397dfcf01da" kind="dir"><name>/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff</name>
+  <compound refid="dir_561465418f9005955c392397dfcf01da" kind="dir"><name>/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff</name>
   </compound>
 </doxygenindex>

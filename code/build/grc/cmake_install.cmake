@@ -1,4 +1,4 @@
-# Install script for directory: /home/sam/git_repos/NSF_IRES_Tutorial/code/grc
+# Install script for directory: /home/sam/git_repos/NSF_IRES_TUTORIAL/code/grc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/grc/lets_test_some_stuff_taggedFileSource.xml"
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/grc/lets_test_some_stuff_taggedHeader.xml"
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/grc/lets_test_some_stuff_taggedHeaderParser.xml"
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/grc/lets_test_some_stuff_taggedAccessCode.xml"
-    "/home/sam/git_repos/NSF_IRES_Tutorial/code/grc/lets_test_some_stuff_taggedPacketGate.xml"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/grc/lets_test_some_stuff_taggedFileSource.xml"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/grc/lets_test_some_stuff_taggedHeader.xml"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/grc/lets_test_some_stuff_taggedHeaderParser.xml"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/grc/lets_test_some_stuff_taggedAccessCode.xml"
+    "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/grc/lets_test_some_stuff_taggedPacketGate.xml"
     )
 endif()
 

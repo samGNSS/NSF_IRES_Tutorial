@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/git_repos/NSF_IRES_Tutorial/code
+CMAKE_SOURCE_DIR = /home/sam/git_repos/NSF_IRES_TUTORIAL/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/git_repos/NSF_IRES_Tutorial/code/build
+CMAKE_BINARY_DIR = /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles /home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib/CMakeFiles/progress.marks
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/git_repos/NSF_IRES_Tutorial/code/build/CMakeFiles 0
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/CMakeFiles /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib/CMakeFiles/progress.marks
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/rule:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/rule
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/rule
 .PHONY : lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ gnuradio-lets_test_some_stuff: lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/
 
 # fast build rule for target.
 gnuradio-lets_test_some_stuff/fast:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build
 .PHONY : gnuradio-lets_test_some_stuff/fast
 
 # Convenience name for target.
 lib/CMakeFiles/test-lets_test_some_stuff.dir/rule:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-lets_test_some_stuff.dir/rule
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-lets_test_some_stuff.dir/rule
 .PHONY : lib/CMakeFiles/test-lets_test_some_stuff.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ test-lets_test_some_stuff: lib/CMakeFiles/test-lets_test_some_stuff.dir/rule
 
 # fast build rule for target.
 test-lets_test_some_stuff/fast:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/build
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/build
 .PHONY : test-lets_test_some_stuff/fast
 
 qa_lets_test_some_stuff.o: qa_lets_test_some_stuff.cc.o
@@ -201,7 +201,7 @@ qa_lets_test_some_stuff.o: qa_lets_test_some_stuff.cc.o
 
 # target to build an object file
 qa_lets_test_some_stuff.cc.o:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.o
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.o
 .PHONY : qa_lets_test_some_stuff.cc.o
 
 qa_lets_test_some_stuff.i: qa_lets_test_some_stuff.cc.i
@@ -210,7 +210,7 @@ qa_lets_test_some_stuff.i: qa_lets_test_some_stuff.cc.i
 
 # target to preprocess a source file
 qa_lets_test_some_stuff.cc.i:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.i
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.i
 .PHONY : qa_lets_test_some_stuff.cc.i
 
 qa_lets_test_some_stuff.s: qa_lets_test_some_stuff.cc.s
@@ -219,7 +219,7 @@ qa_lets_test_some_stuff.s: qa_lets_test_some_stuff.cc.s
 
 # target to generate assembly for a file
 qa_lets_test_some_stuff.cc.s:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.s
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/qa_lets_test_some_stuff.cc.s
 .PHONY : qa_lets_test_some_stuff.cc.s
 
 taggedAccessCode_impl.o: taggedAccessCode_impl.cc.o
@@ -228,7 +228,7 @@ taggedAccessCode_impl.o: taggedAccessCode_impl.cc.o
 
 # target to build an object file
 taggedAccessCode_impl.cc.o:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.o
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.o
 .PHONY : taggedAccessCode_impl.cc.o
 
 taggedAccessCode_impl.i: taggedAccessCode_impl.cc.i
@@ -237,7 +237,7 @@ taggedAccessCode_impl.i: taggedAccessCode_impl.cc.i
 
 # target to preprocess a source file
 taggedAccessCode_impl.cc.i:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.i
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.i
 .PHONY : taggedAccessCode_impl.cc.i
 
 taggedAccessCode_impl.s: taggedAccessCode_impl.cc.s
@@ -246,7 +246,7 @@ taggedAccessCode_impl.s: taggedAccessCode_impl.cc.s
 
 # target to generate assembly for a file
 taggedAccessCode_impl.cc.s:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.s
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedAccessCode_impl.cc.s
 .PHONY : taggedAccessCode_impl.cc.s
 
 taggedFileSource_impl.o: taggedFileSource_impl.cc.o
@@ -255,7 +255,7 @@ taggedFileSource_impl.o: taggedFileSource_impl.cc.o
 
 # target to build an object file
 taggedFileSource_impl.cc.o:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.o
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.o
 .PHONY : taggedFileSource_impl.cc.o
 
 taggedFileSource_impl.i: taggedFileSource_impl.cc.i
@@ -264,7 +264,7 @@ taggedFileSource_impl.i: taggedFileSource_impl.cc.i
 
 # target to preprocess a source file
 taggedFileSource_impl.cc.i:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.i
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.i
 .PHONY : taggedFileSource_impl.cc.i
 
 taggedFileSource_impl.s: taggedFileSource_impl.cc.s
@@ -273,7 +273,7 @@ taggedFileSource_impl.s: taggedFileSource_impl.cc.s
 
 # target to generate assembly for a file
 taggedFileSource_impl.cc.s:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.s
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedFileSource_impl.cc.s
 .PHONY : taggedFileSource_impl.cc.s
 
 taggedHeaderParser_impl.o: taggedHeaderParser_impl.cc.o
@@ -282,7 +282,7 @@ taggedHeaderParser_impl.o: taggedHeaderParser_impl.cc.o
 
 # target to build an object file
 taggedHeaderParser_impl.cc.o:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeaderParser_impl.cc.o
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeaderParser_impl.cc.o
 .PHONY : taggedHeaderParser_impl.cc.o
 
 taggedHeaderParser_impl.i: taggedHeaderParser_impl.cc.i
@@ -291,7 +291,7 @@ taggedHeaderParser_impl.i: taggedHeaderParser_impl.cc.i
 
 # target to preprocess a source file
 taggedHeaderParser_impl.cc.i:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeaderParser_impl.cc.i
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeaderParser_impl.cc.i
 .PHONY : taggedHeaderParser_impl.cc.i
 
 taggedHeaderParser_impl.s: taggedHeaderParser_impl.cc.s
@@ -300,7 +300,7 @@ taggedHeaderParser_impl.s: taggedHeaderParser_impl.cc.s
 
 # target to generate assembly for a file
 taggedHeaderParser_impl.cc.s:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeaderParser_impl.cc.s
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeaderParser_impl.cc.s
 .PHONY : taggedHeaderParser_impl.cc.s
 
 taggedHeader_impl.o: taggedHeader_impl.cc.o
@@ -309,7 +309,7 @@ taggedHeader_impl.o: taggedHeader_impl.cc.o
 
 # target to build an object file
 taggedHeader_impl.cc.o:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.o
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.o
 .PHONY : taggedHeader_impl.cc.o
 
 taggedHeader_impl.i: taggedHeader_impl.cc.i
@@ -318,7 +318,7 @@ taggedHeader_impl.i: taggedHeader_impl.cc.i
 
 # target to preprocess a source file
 taggedHeader_impl.cc.i:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.i
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.i
 .PHONY : taggedHeader_impl.cc.i
 
 taggedHeader_impl.s: taggedHeader_impl.cc.s
@@ -327,7 +327,7 @@ taggedHeader_impl.s: taggedHeader_impl.cc.s
 
 # target to generate assembly for a file
 taggedHeader_impl.cc.s:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.s
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedHeader_impl.cc.s
 .PHONY : taggedHeader_impl.cc.s
 
 taggedPacketGate_impl.o: taggedPacketGate_impl.cc.o
@@ -336,7 +336,7 @@ taggedPacketGate_impl.o: taggedPacketGate_impl.cc.o
 
 # target to build an object file
 taggedPacketGate_impl.cc.o:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.o
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.o
 .PHONY : taggedPacketGate_impl.cc.o
 
 taggedPacketGate_impl.i: taggedPacketGate_impl.cc.i
@@ -345,7 +345,7 @@ taggedPacketGate_impl.i: taggedPacketGate_impl.cc.i
 
 # target to preprocess a source file
 taggedPacketGate_impl.cc.i:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.i
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.i
 .PHONY : taggedPacketGate_impl.cc.i
 
 taggedPacketGate_impl.s: taggedPacketGate_impl.cc.s
@@ -354,7 +354,7 @@ taggedPacketGate_impl.s: taggedPacketGate_impl.cc.s
 
 # target to generate assembly for a file
 taggedPacketGate_impl.cc.s:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.s
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/build.make lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/taggedPacketGate_impl.cc.s
 .PHONY : taggedPacketGate_impl.cc.s
 
 test_lets_test_some_stuff.o: test_lets_test_some_stuff.cc.o
@@ -363,7 +363,7 @@ test_lets_test_some_stuff.o: test_lets_test_some_stuff.cc.o
 
 # target to build an object file
 test_lets_test_some_stuff.cc.o:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.o
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.o
 .PHONY : test_lets_test_some_stuff.cc.o
 
 test_lets_test_some_stuff.i: test_lets_test_some_stuff.cc.i
@@ -372,7 +372,7 @@ test_lets_test_some_stuff.i: test_lets_test_some_stuff.cc.i
 
 # target to preprocess a source file
 test_lets_test_some_stuff.cc.i:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.i
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.i
 .PHONY : test_lets_test_some_stuff.cc.i
 
 test_lets_test_some_stuff.s: test_lets_test_some_stuff.cc.s
@@ -381,7 +381,7 @@ test_lets_test_some_stuff.s: test_lets_test_some_stuff.cc.s
 
 # target to generate assembly for a file
 test_lets_test_some_stuff.cc.s:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.s
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(MAKE) -f lib/CMakeFiles/test-lets_test_some_stuff.dir/build.make lib/CMakeFiles/test-lets_test_some_stuff.dir/test_lets_test_some_stuff.cc.s
 .PHONY : test_lets_test_some_stuff.cc.s
 
 # Help Target
@@ -431,6 +431,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sam/git_repos/NSF_IRES_Tutorial/code/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sam/git_repos/NSF_IRES_TUTORIAL/code/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -fvisibility=hidden
 
 CXX_DEFINES = -Dgnuradio_lets_test_some_stuff_EXPORTS
 
-CXX_INCLUDES = -I/home/sam/git_repos/NSF_IRES_Tutorial/code/lib -I/home/sam/git_repos/NSF_IRES_Tutorial/code/include -I/home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib -I/home/sam/git_repos/NSF_IRES_Tutorial/code/build/include -I/usr/local/include 
+CXX_INCLUDES = -I/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib -I/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include -I/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib -I/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/include -I/usr/local/include 
 

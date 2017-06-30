@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/qa_lets_test_some_stuff.cc
+/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/qa_lets_test_some_stuff.cc
 qa_lets_test_some_stuff.h
-/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/qa_lets_test_some_stuff.h
+/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/qa_lets_test_some_stuff.h
 
-/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/qa_lets_test_some_stuff.h
+/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/qa_lets_test_some_stuff.h
 gnuradio/attributes.h
 -
 cppunit/TestSuite.h
 -
 
-/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/test_lets_test_some_stuff.cc
+/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/test_lets_test_some_stuff.cc
 config.h
-/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/config.h
+/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/config.h
 cppunit/TextTestRunner.h
 -
 cppunit/XmlOutputter.h
@@ -26,7 +26,7 @@ cppunit/XmlOutputter.h
 gnuradio/unittests.h
 -
 qa_lets_test_some_stuff.h
-/home/sam/git_repos/NSF_IRES_Tutorial/code/lib/qa_lets_test_some_stuff.h
+/home/sam/git_repos/NSF_IRES_TUTORIAL/code/lib/qa_lets_test_some_stuff.h
 iostream
 -
 fstream

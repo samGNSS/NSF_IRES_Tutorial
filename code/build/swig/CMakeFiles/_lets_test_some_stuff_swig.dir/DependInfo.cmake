@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/lets_test_some_stuff_swigPYTHON_wrap.cxx" "/home/sam/git_repos/NSF_IRES_Tutorial/code/build/swig/CMakeFiles/_lets_test_some_stuff_swig.dir/lets_test_some_stuff_swigPYTHON_wrap.cxx.o"
+  "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/swig/lets_test_some_stuff_swigPYTHON_wrap.cxx" "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/swig/CMakeFiles/_lets_test_some_stuff_swig.dir/lets_test_some_stuff_swigPYTHON_wrap.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,7 +23,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sam/git_repos/NSF_IRES_Tutorial/code/build/lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/DependInfo.cmake"
+  "/home/sam/git_repos/NSF_IRES_TUTORIAL/code/build/lib/CMakeFiles/gnuradio-lets_test_some_stuff.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

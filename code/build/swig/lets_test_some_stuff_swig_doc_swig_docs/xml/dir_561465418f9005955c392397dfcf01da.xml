@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="dir_561465418f9005955c392397dfcf01da" kind="dir">
-    <compoundname>/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff</compoundname>
+    <compoundname>/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff</compoundname>
     <innerfile refid="api_8h">api.h</innerfile>
     <innerfile refid="taggedAccessCode_8h">taggedAccessCode.h</innerfile>
     <innerfile refid="taggedFileSource_8h">taggedFileSource.h</innerfile>
@@ -12,6 +12,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sam/git_repos/NSF_IRES_Tutorial/code/include/lets_test_some_stuff/"/>
+    <location file="/home/sam/git_repos/NSF_IRES_TUTORIAL/code/include/lets_test_some_stuff/"/>
   </compounddef>
 </doxygen>
