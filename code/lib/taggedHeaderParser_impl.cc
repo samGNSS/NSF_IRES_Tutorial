@@ -26,7 +26,7 @@
 #include "taggedHeaderParser_impl.h"
 
 #define headerSize 2
-#define debug 
+#define debug
 
 namespace gr {
   namespace lets_test_some_stuff {
@@ -66,13 +66,14 @@ namespace gr {
       std::memcpy(header,in,headerSize);
 
       //check for dropped packets
-      if(++d_prevPacketNumber != header[0]){
+      ++d_prevPacketNumber %= 256;
+      if(d_prevPacketNumber != header[0]){
         printf("WARNING: Packet Loss Detected\nExpected packet number: %d got %d\n",d_prevPacketNumber,header[0]);
         d_prevPacketNumber = header[0];
       }
 
        //wrap packet counter
-       d_prevPacketNumber %= 256;
+       //d_prevPacketNumber %= 256;
 
       /*
        * Header structure:
