@@ -26,7 +26,7 @@
 #include "taggedHeaderParser_impl.h"
 
 #define headerSize 2
-#define debug 1
+#define debug
 
 namespace gr {
   namespace lets_test_some_stuff {
@@ -61,19 +61,20 @@ namespace gr {
       const char *in = (const char *) input_items[0];
       char *out = (char *) output_items[0];
       uint8_t header[] = {0,0}; //two bytes for the header
-      
+
       //parse header
       std::memcpy(header,in,headerSize);
-      
+
       //check for dropped packets
-      if(d_prevPacketNumber++ != header[0]){
+      ++d_prevPacketNumber %= 256;
+      if(d_prevPacketNumber != header[0]){
         printf("WARNING: Packet Loss Detected\nExpected packet number: %d got %d\n",d_prevPacketNumber,header[0]);
         d_prevPacketNumber = header[0];
       }
-      
+
        //wrap packet counter
-       d_prevPacketNumber %= 256;
-      
+       //d_prevPacketNumber %= 256;
+
       /*
        * Header structure:
        *  - packet length, stored as two bytes, repeated twice
@@ -83,13 +84,12 @@ namespace gr {
        * 		0x00 -> pad buffer, drop on the floor
        *                0x01 -> data buffer, strip the header and pass on
        */
-#ifdef debug
-	printf("packet type: %x\n",header[1]);
-#endif      
-      
       switch(header[1]){
         case 0:{
             //got a pad buffer, drop it on the floor
+            #ifdef debug
+            	printf("packet type: %x\n",header[1]);
+            #endif
             return 0;
         }
         case 1:{
@@ -101,7 +101,7 @@ namespace gr {
             return 0;
         }
       }
-      
+
       //fill output buffer
        std::memcpy(out,in+headerSize,ninput_items[0] - headerSize); //fill the packet after the header
 
@@ -117,7 +117,7 @@ namespace gr {
         }
         add_item_tag(0, nitems_written(0) + tags[i].offset,tags[i].key,tags[i].value);
       }
-      
+
       // Tell runtime system how many output items we produced.
       return ninput_items[0] - headerSize;
     }

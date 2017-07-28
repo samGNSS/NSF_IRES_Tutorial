@@ -1731,6 +1731,45 @@
     </param>
     <param>
       <key>_coordinate</key>
+      <value>(712, 500)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>packet_utils_ber_monitor_0</value>
+    </param>
+    <param>
+      <key>monitorTime</key>
+      <value>10</value>
+    </param>
+    <param>
+      <key>truthVal</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>packet_utils_ber_monitor</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
       <value>(264, 252)</value>
     </param>
     <param>
@@ -2085,7 +2124,7 @@
     </param>
     <param>
       <key>blockLength</key>
-      <value>128</value>
+      <value>512</value>
     </param>
     <param>
       <key>comment</key>
@@ -2101,11 +2140,11 @@
     </param>
     <param>
       <key>file</key>
-      <value>/home/sam/Pictures/lenna.jpg</value>
+      <value>/home/sam/Documents/GNU_RADIO/graphs/Lenna.png</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(40, 116)</value>
+      <value>(24, 116)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2148,7 +2187,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1032, 84)</value>
+      <value>(1040, 84)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2161,6 +2200,33 @@
     <param>
       <key>stream_id</key>
       <value>modIN</value>
+    </param>
+  </block>
+  <block>
+    <key>virtual_sink</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(800, 668)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>virtual_sink_2</value>
+    </param>
+    <param>
+      <key>stream_id</key>
+      <value>vecSourceOut</value>
     </param>
   </block>
   <block>
