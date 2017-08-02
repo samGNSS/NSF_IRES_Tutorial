@@ -38,7 +38,7 @@
     </param>
     <param>
       <key>generate_options</key>
-      <value>no_gui</value>
+      <value>qt_gui</value>
     </param>
     <param>
       <key>hier_block_src_path</key>
@@ -82,6 +82,69 @@
     </param>
   </block>
   <block>
+    <key>variable_qtgui_range</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>68</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(432, 8)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>gain</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value></value>
+    </param>
+    <param>
+      <key>min_len</key>
+      <value>200</value>
+    </param>
+    <param>
+      <key>orient</key>
+      <value>Qt.Horizontal</value>
+    </param>
+    <param>
+      <key>start</key>
+      <value>20</value>
+    </param>
+    <param>
+      <key>step</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>stop</key>
+      <value>90</value>
+    </param>
+    <param>
+      <key>rangeType</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>widget</key>
+      <value>counter_slider</value>
+    </param>
+  </block>
+  <block>
     <key>variable</key>
     <param>
       <key>comment</key>
@@ -105,7 +168,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>512*5</value>
+      <value>4000</value>
     </param>
   </block>
   <block>
@@ -187,7 +250,7 @@
     </param>
     <param>
       <key>samp_rate</key>
-      <value>44100</value>
+      <value>16000</value>
     </param>
   </block>
   <block>
@@ -210,7 +273,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(448, 124)</value>
+      <value>(440, 124)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -638,6 +701,124 @@
     </param>
   </block>
   <block>
+    <key>rational_resampler_xxx</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>decim</key>
+      <value>123</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>fbw</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(240, 96)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>rational_resampler_xxx_0</value>
+    </param>
+    <param>
+      <key>interp</key>
+      <value>124</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>taps</key>
+      <value></value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>fff</value>
+    </param>
+  </block>
+  <block>
+    <key>rational_resampler_xxx</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>decim</key>
+      <value>123</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>fbw</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(248, 184)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>rational_resampler_xxx_0_0</value>
+    </param>
+    <param>
+      <key>interp</key>
+      <value>124</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>taps</key>
+      <value></value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>fff</value>
+    </param>
+  </block>
+  <block>
     <key>uhd_usrp_sink</key>
     <param>
       <key>alias</key>
@@ -653,7 +834,7 @@
     </param>
     <param>
       <key>center_freq0</key>
-      <value>2.41e9</value>
+      <value>5e9</value>
     </param>
     <param>
       <key>norm_gain0</key>
@@ -661,7 +842,7 @@
     </param>
     <param>
       <key>gain0</key>
-      <value>40</value>
+      <value>gain</value>
     </param>
     <param>
       <key>ant10</key>
@@ -1309,7 +1490,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(880, 400)</value>
+      <value>(880, 416)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1429,7 +1610,7 @@
     </param>
     <param>
       <key>samp_rate</key>
-      <value>samp_rate</value>
+      <value>1.03e6</value>
     </param>
     <param>
       <key>hide_cmd_port</key>
@@ -1570,13 +1751,13 @@
   </block>
   <connection>
     <source_block_id>audio_source_0</source_block_id>
-    <sink_block_id>blocks_float_to_char_0</sink_block_id>
+    <sink_block_id>rational_resampler_xxx_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
     <source_block_id>audio_source_0</source_block_id>
-    <sink_block_id>blocks_float_to_char_1</sink_block_id>
+    <sink_block_id>rational_resampler_xxx_0_0</sink_block_id>
     <source_key>1</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -1631,6 +1812,18 @@
   <connection>
     <source_block_id>lets_test_some_stuff_taggedHeader_0</source_block_id>
     <sink_block_id>lets_test_some_stuff_taggedAccessCode_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>rational_resampler_xxx_0</source_block_id>
+    <sink_block_id>blocks_float_to_char_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>rational_resampler_xxx_0_0</source_block_id>
+    <sink_block_id>blocks_float_to_char_1</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
