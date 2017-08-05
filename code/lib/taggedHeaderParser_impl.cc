@@ -25,6 +25,8 @@
 #include <gnuradio/io_signature.h>
 #include "taggedHeaderParser_impl.h"
 
+#include <iostream>
+
 #define headerSize 2
 #define debug
 
@@ -68,7 +70,7 @@ namespace gr {
       //check for dropped packets
       ++d_prevPacketNumber %= 256;
       if(d_prevPacketNumber != header[0]){
-        printf("WARNING: Packet Loss Detected\nExpected packet number: %d got %d\n",d_prevPacketNumber,header[0]);
+        std:: cout << "WARNING: Packet Loss Detected \nExpected packet number: " << d_prevPacketNumber << "got " << header[0] << std::endl;
         d_prevPacketNumber = header[0];
       }
 
@@ -88,7 +90,7 @@ namespace gr {
         case 0:{
             //got a pad buffer, drop it on the floor
             #ifdef debug
-            	printf("packet type: %x\n",header[1]);
+            	std::cout << "packet type: " <<  header[1] << std::endl;
             #endif
             return 0;
         }
@@ -97,7 +99,7 @@ namespace gr {
             break;
         }
         default:{
-            printf("Bad Packet\n");
+            std::cout << "Bad Packet\n";
             return 0;
         }
       }
