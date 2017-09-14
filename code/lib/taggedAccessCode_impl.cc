@@ -25,7 +25,7 @@
 #include <gnuradio/io_signature.h>
 #include "taggedAccessCode_impl.h"
 
-#define accessCode "\xB7\x97\x12\xF9\xAF\x2D\xF9\xAF\x12"
+#define accessCode "\xB7\x97\x12\xF9\xAF\x2D\xF9\xAF"
 #define codeLength 8 //bytes
 
 namespace gr {
@@ -53,7 +53,7 @@ namespace gr {
       return ninput_items[0] + codeLength;
     }
 
-    
+
     //append the access code to the input stream
     int
     taggedAccessCode_impl::work (int noutput_items,
@@ -66,9 +66,9 @@ namespace gr {
       long packet_length = ninput_items[0];
       //append access code
       std::memmove(out,accessCode,codeLength);
-      
+
       //fill the packet after the header
-      std::memmove(out+codeLength,in,packet_length); 
+      std::memmove(out+codeLength,in,packet_length);
 
       /*
       Rearange the tags
@@ -82,7 +82,7 @@ namespace gr {
 	}
         add_item_tag(0, nitems_written(0) + tags[i].offset,tags[i].key,tags[i].value);
       }
-      
+
       // Tell runtime system how many output items we produced.
       return packet_length + codeLength;
     }
