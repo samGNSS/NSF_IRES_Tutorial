@@ -28,8 +28,7 @@ list(APPEND lets_test_some_stuff_sources
     taggedFileSource_impl.cc
     taggedHeader_impl.cc
     taggedHeaderParser_impl.cc
-    taggedAccessCode_impl.cc
-    taggedPacketGate_impl.cc )
+    taggedAccessCode_impl.cc)
 
 set(lets_test_some_stuff_sources "${lets_test_some_stuff_sources}" PARENT_SCOPE)
 if(NOT lets_test_some_stuff_sources)

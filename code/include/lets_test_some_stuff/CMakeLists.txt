@@ -25,6 +25,5 @@ install(FILES
     taggedFileSource.h
     taggedHeader.h
     taggedHeaderParser.h
-    taggedAccessCode.h
-    taggedPacketGate.h DESTINATION include/lets_test_some_stuff
+    taggedAccessCode.h DESTINATION include/lets_test_some_stuff
 )
